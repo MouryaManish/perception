@@ -172,10 +172,10 @@ class Figure1:
 
     image = np.zeros(Figure1.SIZE, dtype=np.bool)
 
-
-    half_width = math.floor(WIDTH / 2) # this always floors
-    
-    # print(Y,LENGTH,X,half_width,WIDTH)
+    # strange, getting float value so need to hard force it to integer
+    half_width = int(math.floor(WIDTH / 2)) # this always floors
+    X = int(X)
+    #print(Y,LENGTH,X,half_width,WIDTH,"**********")
     image[Y:Y+LENGTH, X-half_width:X+half_width+1] = 1
 
 

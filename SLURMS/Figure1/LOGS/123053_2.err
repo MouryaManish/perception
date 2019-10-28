@@ -1,0 +1,11 @@
+Using TensorFlow backend.
+2019-10-26 12:57:27.579752: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-10-26 12:57:27.608708: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_NOT_INITIALIZED
+2019-10-26 12:57:27.608777: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:158] retrieving CUDA diagnostic information for host: gibbs28.gibbs.local
+2019-10-26 12:57:27.608788: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:165] hostname: gibbs28.gibbs.local
+2019-10-26 12:57:27.608855: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:189] libcuda reported version is: 390.77.0
+2019-10-26 12:57:27.608895: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:369] driver version file contents: """NVRM version: NVIDIA UNIX x86_64 Kernel Module  390.77  Tue Jul 10 18:28:52 PDT 2018
+GCC version:  gcc version 4.4.7 20120313 (Red Hat 4.4.7-23) (GCC) 
+"""
+2019-10-26 12:57:27.608925: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:193] kernel reported version is: 390.77.0
+2019-10-26 12:57:27.608936: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:300] kernel version seems to match DSO: 390.77.0

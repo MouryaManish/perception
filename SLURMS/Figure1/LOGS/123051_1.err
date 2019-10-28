@@ -1,0 +1,28 @@
+Using TensorFlow backend.
+2019-10-26 12:02:39.618303: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2019-10-26 12:02:39.739788: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 670 major: 3 minor: 0 memoryClockRate(GHz): 1.0845
+pciBusID: 0000:02:00.0
+totalMemory: 3.94GiB freeMemory: 3.90GiB
+2019-10-26 12:02:39.778748: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: GeForce GTX 670 major: 3 minor: 0 memoryClockRate(GHz): 1.0845
+pciBusID: 0000:03:00.0
+totalMemory: 3.94GiB freeMemory: 3.90GiB
+2019-10-26 12:02:39.822115: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 2 with properties: 
+name: GeForce GTX 670 major: 3 minor: 0 memoryClockRate(GHz): 1.0845
+pciBusID: 0000:83:00.0
+totalMemory: 3.94GiB freeMemory: 3.90GiB
+2019-10-26 12:02:39.865728: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 3 with properties: 
+name: GeForce GTX 670 major: 3 minor: 0 memoryClockRate(GHz): 1.0845
+pciBusID: 0000:84:00.0
+totalMemory: 3.94GiB freeMemory: 3.90GiB
+2019-10-26 12:02:39.866434: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Device peer to peer matrix
+2019-10-26 12:02:39.866576: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1051] DMA: 0 1 2 3 
+2019-10-26 12:02:39.866592: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 0:   Y Y N N 
+2019-10-26 12:02:39.866602: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 1:   Y Y N N 
+2019-10-26 12:02:39.866611: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 2:   N N Y Y 
+2019-10-26 12:02:39.866620: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 3:   N N Y Y 
+2019-10-26 12:02:39.866642: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 670, pci bus id: 0000:02:00.0, compute capability: 3.0)
+2019-10-26 12:02:39.866655: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:1) -> (device: 1, name: GeForce GTX 670, pci bus id: 0000:03:00.0, compute capability: 3.0)
+2019-10-26 12:02:39.866667: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:2) -> (device: 2, name: GeForce GTX 670, pci bus id: 0000:83:00.0, compute capability: 3.0)
+2019-10-26 12:02:39.866679: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:3) -> (device: 3, name: GeForce GTX 670, pci bus id: 0000:84:00.0, compute capability: 3.0)

@@ -1,0 +1,38 @@
+/var/spool/slurmd/job123039/slurm_script: line 16: new-modules.sh: No such file or directory
+ModuleCmd_Load.c(213):ERROR:105: Unable to locate a modulefile for 'Anaconda/5.0.1-fasrc01'
+Using TensorFlow backend.
+2019-10-20 15:19:58.035627: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-10-20 15:19:58.063151: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_NOT_INITIALIZED
+2019-10-20 15:19:58.063216: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:158] retrieving CUDA diagnostic information for host: gibbs28.gibbs.local
+2019-10-20 15:19:58.063227: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:165] hostname: gibbs28.gibbs.local
+2019-10-20 15:19:58.063288: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:189] libcuda reported version is: 390.77.0
+2019-10-20 15:19:58.063324: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:369] driver version file contents: """NVRM version: NVIDIA UNIX x86_64 Kernel Module  390.77  Tue Jul 10 18:28:52 PDT 2018
+GCC version:  gcc version 4.4.7 20120313 (Red Hat 4.4.7-23) (GCC) 
+"""
+2019-10-20 15:19:58.063350: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:193] kernel reported version is: 390.77.0
+2019-10-20 15:19:58.063359: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:300] kernel version seems to match DSO: 390.77.0
+Traceback (most recent call last):
+  File "run_regression.py", line 328, in <module>
+    verbose=True)
+  File "/home/manish.mourya001/anaconda3/envs/CP/lib/python2.7/site-packages/keras/models.py", line 965, in fit
+    validation_steps=validation_steps)
+  File "/home/manish.mourya001/anaconda3/envs/CP/lib/python2.7/site-packages/keras/engine/training.py", line 1669, in fit
+    validation_steps=validation_steps)
+  File "/home/manish.mourya001/anaconda3/envs/CP/lib/python2.7/site-packages/keras/engine/training.py", line 1226, in _fit_loop
+    callbacks.on_epoch_end(epoch, epoch_logs)
+  File "/home/manish.mourya001/anaconda3/envs/CP/lib/python2.7/site-packages/keras/callbacks.py", line 76, in on_epoch_end
+    callback.on_epoch_end(epoch, logs)
+  File "/home/manish.mourya001/anaconda3/envs/CP/lib/python2.7/site-packages/keras/callbacks.py", line 418, in on_epoch_end
+    self.model.save(filepath, overwrite=True)
+  File "/home/manish.mourya001/anaconda3/envs/CP/lib/python2.7/site-packages/keras/engine/topology.py", line 2573, in save
+    save_model(self, filepath, overwrite, include_optimizer)
+  File "/home/manish.mourya001/anaconda3/envs/CP/lib/python2.7/site-packages/keras/models.py", line 106, in save_model
+    with h5py.File(filepath, mode='w') as f:
+  File "/home/manish.mourya001/anaconda3/envs/CP/lib/python2.7/site-packages/h5py/_hl/files.py", line 271, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "/home/manish.mourya001/anaconda3/envs/CP/lib/python2.7/site-packages/h5py/_hl/files.py", line 107, in make_fid
+    fid = h5f.create(name, h5f.ACC_TRUNC, fapl=fapl, fcpl=fcpl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 98, in h5py.h5f.create
+IOError: Unable to create file (Unable to open file: name = '/home/d/perception/results/c.figure1.angle/0/mlp/01_noise.h5', errno = 2, error message = 'no such file or directory', flags = 13, o_flags = 242)

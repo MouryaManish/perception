@@ -1,0 +1,28 @@
+Using TensorFlow backend.
+2019-10-26 16:47:56.256674: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-10-26 16:47:56.474156: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 980 major: 5 minor: 2 memoryClockRate(GHz): 1.2155
+pciBusID: 0000:02:00.0
+totalMemory: 3.95GiB freeMemory: 3.87GiB
+2019-10-26 16:47:56.614981: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: GeForce GTX 980 major: 5 minor: 2 memoryClockRate(GHz): 1.2155
+pciBusID: 0000:03:00.0
+totalMemory: 3.95GiB freeMemory: 3.87GiB
+2019-10-26 16:47:56.761335: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 2 with properties: 
+name: GeForce GTX 980 major: 5 minor: 2 memoryClockRate(GHz): 1.2155
+pciBusID: 0000:82:00.0
+totalMemory: 3.95GiB freeMemory: 3.87GiB
+2019-10-26 16:47:56.912290: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 3 with properties: 
+name: GeForce GTX 980 major: 5 minor: 2 memoryClockRate(GHz): 1.2155
+pciBusID: 0000:83:00.0
+totalMemory: 3.95GiB freeMemory: 3.87GiB
+2019-10-26 16:47:56.912860: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Device peer to peer matrix
+2019-10-26 16:47:56.912950: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1051] DMA: 0 1 2 3 
+2019-10-26 16:47:56.912959: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 0:   Y Y N N 
+2019-10-26 16:47:56.912964: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 1:   Y Y N N 
+2019-10-26 16:47:56.912970: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 2:   N N Y Y 
+2019-10-26 16:47:56.912975: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 3:   N N Y Y 
+2019-10-26 16:47:56.912990: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 980, pci bus id: 0000:02:00.0, compute capability: 5.2)
+2019-10-26 16:47:56.912997: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:1) -> (device: 1, name: GeForce GTX 980, pci bus id: 0000:03:00.0, compute capability: 5.2)
+2019-10-26 16:47:56.913004: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:2) -> (device: 2, name: GeForce GTX 980, pci bus id: 0000:82:00.0, compute capability: 5.2)
+2019-10-26 16:47:56.913009: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:3) -> (device: 3, name: GeForce GTX 980, pci bus id: 0000:83:00.0, compute capability: 5.2)

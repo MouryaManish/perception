@@ -50,7 +50,7 @@ if os.path.abspath('~').startswith('/n/'):
   # we are on the cluster
   PREFIX = '/n/regal/pfister_lab/PERCEPTION/'
 else:
-  PREFIX = '/home/d/PERCEPTION/'
+  PREFIX = '/home/manish.mourya001/Prof_Daniel/d'
 RESULTS_DIR = PREFIX + 'RESULTS/'
 
 OUTPUT_DIR = RESULTS_DIR + EXPERIMENT + '/' + str(DATASET) + '/' + CLASSIFIER + '/'

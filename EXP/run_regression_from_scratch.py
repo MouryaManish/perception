@@ -50,7 +50,7 @@ if os.path.abspath('~').startswith('/n/'):
   # we are on the cluster
   PREFIX = '/n/regal/pfister_lab/PERCEPTION/'
 else:
-  PREFIX = '/home/d/PERCEPTION/'
+  PREFIX = '/home/manish.mourya001/Prof_Daniel/d'
 RESULTS_DIR = PREFIX + 'RESULTS_FROM_SCRATCH/'
 
 OUTPUT_DIR = RESULTS_DIR + EXPERIMENT + '/' + str(DATASET) + '/' + CLASSIFIER + '/'
@@ -269,7 +269,7 @@ if CLASSIFIER == 'VGG19' or CLASSIFIER == 'XCEPTION':
 #
 #
 t0 = time.time()
-callbacks = [keras.callbacks.EarlyStopping(monitor='val_loss', min_delta=0, patience=10, verbose=0, mode='auto'), \
+callbacks = [keras.callbacks.EarlyStopping(monitor='val_loss', min_delta=0, patience=50, verbose=0, mode='auto'), \
              keras.callbacks.ModelCheckpoint(MODELFILE, monitor='val_loss', verbose=1, save_best_only=True, mode='min')]
 
 history = model.fit(X_train_3D, \

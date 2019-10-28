@@ -1,0 +1,949 @@
+My SLURM_ARRAY_TASK_ID:  1
+Running C.Figure1.angle on dataset 0 with MLP Noise: True Job Index 1
+Race condition! False
+Working in /home/d/PERCEPTION/RESULTS/C.Figure1.angle/0/MLP/
+Storing /home/d/PERCEPTION/RESULTS/C.Figure1.angle/0/MLP/01_noise.p
+Storing /home/d/PERCEPTION/RESULTS/C.Figure1.angle/0/MLP/01_noise.h5
+Done 72.3577749729 seconds ( 576975 iterations)
+memory usage 4000.4 MB
+Train on 60000 samples, validate on 20000 samples
+Epoch 1/1000
+
+   32/60000 [..............................] - ETA: 5:28 - loss: 1.0331 - mean_squared_error: 1.0331 - mean_absolute_error: 0.8535
+   96/60000 [..............................] - ETA: 2:43 - loss: 0.9244 - mean_squared_error: 0.9244 - mean_absolute_error: 0.7927
+  160/60000 [..............................] - ETA: 2:10 - loss: 0.8230 - mean_squared_error: 0.8230 - mean_absolute_error: 0.7451
+  224/60000 [..............................] - ETA: 1:56 - loss: 0.8253 - mean_squared_error: 0.8253 - mean_absolute_error: 0.7418
+  288/60000 [..............................] - ETA: 1:48 - loss: 0.7887 - mean_squared_error: 0.7887 - mean_absolute_error: 0.7217
+  352/60000 [..............................] - ETA: 1:43 - loss: 0.7235 - mean_squared_error: 0.7235 - mean_absolute_error: 0.6814
+  416/60000 [..............................] - ETA: 1:39 - loss: 0.6773 - mean_squared_error: 0.6773 - mean_absolute_error: 0.6567
+  480/60000 [..............................] - ETA: 1:37 - loss: 0.6354 - mean_squared_error: 0.6354 - mean_absolute_error: 0.6367
+  544/60000 [..............................] - ETA: 1:35 - loss: 0.6137 - mean_squared_error: 0.6137 - mean_absolute_error: 0.6275
+  608/60000 [..............................] - ETA: 1:33 - loss: 0.5775 - mean_squared_error: 0.5775 - mean_absolute_error: 0.6039
+  672/60000 [..............................] - ETA: 1:32 - loss: 0.5472 - mean_squared_error: 0.5472 - mean_absolute_error: 0.5851
+  736/60000 [..............................] - ETA: 1:31 - loss: 0.5200 - mean_squared_error: 0.5200 - mean_absolute_error: 0.5690
+  800/60000 [..............................] - ETA: 1:30 - loss: 0.5023 - mean_squared_error: 0.5023 - mean_absolute_error: 0.5600
+  864/60000 [..............................] - ETA: 1:29 - loss: 0.4846 - mean_squared_error: 0.4846 - mean_absolute_error: 0.5514
+  928/60000 [..............................] - ETA: 1:28 - loss: 0.4693 - mean_squared_error: 0.4693 - mean_absolute_error: 0.5423
+  992/60000 [..............................] - ETA: 1:28 - loss: 0.4527 - mean_squared_error: 0.4527 - mean_absolute_error: 0.5314
+ 1056/60000 [..............................] - ETA: 1:27 - loss: 0.4341 - mean_squared_error: 0.4341 - mean_absolute_error: 0.5185
+ 1120/60000 [..............................] - ETA: 1:27 - loss: 0.4197 - mean_squared_error: 0.4197 - mean_absolute_error: 0.5087
+ 1184/60000 [..............................] - ETA: 1:26 - loss: 0.4084 - mean_squared_error: 0.4084 - mean_absolute_error: 0.5015
+ 1248/60000 [..............................] - ETA: 1:26 - loss: 0.3999 - mean_squared_error: 0.3999 - mean_absolute_error: 0.4975
+ 1312/60000 [..............................] - ETA: 1:25 - loss: 0.3906 - mean_squared_error: 0.3906 - mean_absolute_error: 0.4921
+ 1376/60000 [..............................] - ETA: 1:25 - loss: 0.3810 - mean_squared_error: 0.3810 - mean_absolute_error: 0.4864
+ 1440/60000 [..............................] - ETA: 1:24 - loss: 0.3717 - mean_squared_error: 0.3717 - mean_absolute_error: 0.4802
+ 1504/60000 [..............................] - ETA: 1:24 - loss: 0.3625 - mean_squared_error: 0.3625 - mean_absolute_error: 0.4739
+ 1568/60000 [..............................] - ETA: 1:24 - loss: 0.3551 - mean_squared_error: 0.3551 - mean_absolute_error: 0.4698
+ 1632/60000 [..............................] - ETA: 1:24 - loss: 0.3474 - mean_squared_error: 0.3474 - mean_absolute_error: 0.4649
+ 1696/60000 [..............................] - ETA: 1:23 - loss: 0.3419 - mean_squared_error: 0.3419 - mean_absolute_error: 0.4617
+ 1760/60000 [..............................] - ETA: 1:23 - loss: 0.3357 - mean_squared_error: 0.3357 - mean_absolute_error: 0.4580
+ 1824/60000 [..............................] - ETA: 1:23 - loss: 0.3301 - mean_squared_error: 0.3301 - mean_absolute_error: 0.4548
+ 1888/60000 [..............................] - ETA: 1:23 - loss: 0.3247 - mean_squared_error: 0.3247 - mean_absolute_error: 0.4510
+ 1952/60000 [..............................] - ETA: 1:22 - loss: 0.3209 - mean_squared_error: 0.3209 - mean_absolute_error: 0.4492
+ 2016/60000 [>.............................] - ETA: 1:22 - loss: 0.3158 - mean_squared_error: 0.3158 - mean_absolute_error: 0.4457
+ 2080/60000 [>.............................] - ETA: 1:22 - loss: 0.3109 - mean_squared_error: 0.3109 - mean_absolute_error: 0.4425
+ 2144/60000 [>.............................] - ETA: 1:22 - loss: 0.3071 - mean_squared_error: 0.3071 - mean_absolute_error: 0.4405
+ 2208/60000 [>.............................] - ETA: 1:22 - loss: 0.3029 - mean_squared_error: 0.3029 - mean_absolute_error: 0.4382
+ 2272/60000 [>.............................] - ETA: 1:21 - loss: 0.2985 - mean_squared_error: 0.2985 - mean_absolute_error: 0.4349
+ 2336/60000 [>.............................] - ETA: 1:21 - loss: 0.2946 - mean_squared_error: 0.2946 - mean_absolute_error: 0.4325
+ 2400/60000 [>.............................] - ETA: 1:21 - loss: 0.2917 - mean_squared_error: 0.2917 - mean_absolute_error: 0.4310
+ 2464/60000 [>.............................] - ETA: 1:21 - loss: 0.2884 - mean_squared_error: 0.2884 - mean_absolute_error: 0.4289
+ 2528/60000 [>.............................] - ETA: 1:21 - loss: 0.2849 - mean_squared_error: 0.2849 - mean_absolute_error: 0.4265
+ 2592/60000 [>.............................] - ETA: 1:20 - loss: 0.2813 - mean_squared_error: 0.2813 - mean_absolute_error: 0.4242
+ 2656/60000 [>.............................] - ETA: 1:20 - loss: 0.2775 - mean_squared_error: 0.2775 - mean_absolute_error: 0.4210
+ 2720/60000 [>.............................] - ETA: 1:20 - loss: 0.2744 - mean_squared_error: 0.2744 - mean_absolute_error: 0.4189
+ 2784/60000 [>.............................] - ETA: 1:20 - loss: 0.2715 - mean_squared_error: 0.2715 - mean_absolute_error: 0.4168
+ 2848/60000 [>.............................] - ETA: 1:20 - loss: 0.2695 - mean_squared_error: 0.2695 - mean_absolute_error: 0.4159
+ 2912/60000 [>.............................] - ETA: 1:20 - loss: 0.2671 - mean_squared_error: 0.2671 - mean_absolute_error: 0.4146
+ 2976/60000 [>.............................] - ETA: 1:20 - loss: 0.2642 - mean_squared_error: 0.2642 - mean_absolute_error: 0.4125
+ 3040/60000 [>.............................] - ETA: 1:19 - loss: 0.2619 - mean_squared_error: 0.2619 - mean_absolute_error: 0.4109
+ 3104/60000 [>.............................] - ETA: 1:19 - loss: 0.2593 - mean_squared_error: 0.2593 - mean_absolute_error: 0.4091
+ 3168/60000 [>.............................] - ETA: 1:19 - loss: 0.2573 - mean_squared_error: 0.2573 - mean_absolute_error: 0.4081
+ 3232/60000 [>.............................] - ETA: 1:19 - loss: 0.2552 - mean_squared_error: 0.2552 - mean_absolute_error: 0.4067
+ 3296/60000 [>.............................] - ETA: 1:19 - loss: 0.2532 - mean_squared_error: 0.2532 - mean_absolute_error: 0.4055
+ 3360/60000 [>.............................] - ETA: 1:19 - loss: 0.2519 - mean_squared_error: 0.2519 - mean_absolute_error: 0.4050
+ 3424/60000 [>.............................] - ETA: 1:19 - loss: 0.2502 - mean_squared_error: 0.2502 - mean_absolute_error: 0.4042
+ 3488/60000 [>.............................] - ETA: 1:18 - loss: 0.2487 - mean_squared_error: 0.2487 - mean_absolute_error: 0.4035
+ 3552/60000 [>.............................] - ETA: 1:18 - loss: 0.2474 - mean_squared_error: 0.2474 - mean_absolute_error: 0.4028
+ 3616/60000 [>.............................] - ETA: 1:18 - loss: 0.2460 - mean_squared_error: 0.2460 - mean_absolute_error: 0.4021
+ 3680/60000 [>.............................] - ETA: 1:18 - loss: 0.2441 - mean_squared_error: 0.2441 - mean_absolute_error: 0.4008
+ 3744/60000 [>.............................] - ETA: 1:18 - loss: 0.2426 - mean_squared_error: 0.2426 - mean_absolute_error: 0.3998
+ 3808/60000 [>.............................] - ETA: 1:18 - loss: 0.2408 - mean_squared_error: 0.2408 - mean_absolute_error: 0.3985
+ 3872/60000 [>.............................] - ETA: 1:18 - loss: 0.2397 - mean_squared_error: 0.2397 - mean_absolute_error: 0.3978
+ 3936/60000 [>.............................] - ETA: 1:18 - loss: 0.2379 - mean_squared_error: 0.2379 - mean_absolute_error: 0.3966
+ 4000/60000 [=>............................] - ETA: 1:17 - loss: 0.2364 - mean_squared_error: 0.2364 - mean_absolute_error: 0.3955
+ 4064/60000 [=>............................] - ETA: 1:17 - loss: 0.2348 - mean_squared_error: 0.2348 - mean_absolute_error: 0.3943
+ 4128/60000 [=>............................] - ETA: 1:17 - loss: 0.2338 - mean_squared_error: 0.2338 - mean_absolute_error: 0.3939
+ 4192/60000 [=>............................] - ETA: 1:17 - loss: 0.2325 - mean_squared_error: 0.2325 - mean_absolute_error: 0.3930
+ 4256/60000 [=>............................] - ETA: 1:17 - loss: 0.2310 - mean_squared_error: 0.2310 - mean_absolute_error: 0.3919
+ 4320/60000 [=>............................] - ETA: 1:17 - loss: 0.2294 - mean_squared_error: 0.2294 - mean_absolute_error: 0.3908
+ 4384/60000 [=>............................] - ETA: 1:17 - loss: 0.2281 - mean_squared_error: 0.2281 - mean_absolute_error: 0.3899
+ 4448/60000 [=>............................] - ETA: 1:17 - loss: 0.2271 - mean_squared_error: 0.2271 - mean_absolute_error: 0.3893
+ 4512/60000 [=>............................] - ETA: 1:17 - loss: 0.2257 - mean_squared_error: 0.2257 - mean_absolute_error: 0.3883
+ 4576/60000 [=>............................] - ETA: 1:16 - loss: 0.2246 - mean_squared_error: 0.2246 - mean_absolute_error: 0.3875
+ 4640/60000 [=>............................] - ETA: 1:16 - loss: 0.2237 - mean_squared_error: 0.2237 - mean_absolute_error: 0.3872
+ 4704/60000 [=>............................] - ETA: 1:16 - loss: 0.2223 - mean_squared_error: 0.2223 - mean_absolute_error: 0.3859
+ 4768/60000 [=>............................] - ETA: 1:16 - loss: 0.2211 - mean_squared_error: 0.2211 - mean_absolute_error: 0.3850
+ 4832/60000 [=>............................] - ETA: 1:16 - loss: 0.2202 - mean_squared_error: 0.2202 - mean_absolute_error: 0.3846
+ 4896/60000 [=>............................] - ETA: 1:16 - loss: 0.2193 - mean_squared_error: 0.2193 - mean_absolute_error: 0.3842
+ 4960/60000 [=>............................] - ETA: 1:16 - loss: 0.2184 - mean_squared_error: 0.2184 - mean_absolute_error: 0.3835
+ 5024/60000 [=>............................] - ETA: 1:16 - loss: 0.2180 - mean_squared_error: 0.2180 - mean_absolute_error: 0.3835
+ 5088/60000 [=>............................] - ETA: 1:16 - loss: 0.2172 - mean_squared_error: 0.2172 - mean_absolute_error: 0.3832
+ 5152/60000 [=>............................] - ETA: 1:15 - loss: 0.2162 - mean_squared_error: 0.2162 - mean_absolute_error: 0.3825
+ 5216/60000 [=>............................] - ETA: 1:15 - loss: 0.2156 - mean_squared_error: 0.2156 - mean_absolute_error: 0.3823
+ 5280/60000 [=>............................] - ETA: 1:15 - loss: 0.2145 - mean_squared_error: 0.2145 - mean_absolute_error: 0.3815
+ 5344/60000 [=>............................] - ETA: 1:15 - loss: 0.2137 - mean_squared_error: 0.2137 - mean_absolute_error: 0.3809
+ 5408/60000 [=>............................] - ETA: 1:15 - loss: 0.2127 - mean_squared_error: 0.2127 - mean_absolute_error: 0.3801
+ 5472/60000 [=>............................] - ETA: 1:15 - loss: 0.2117 - mean_squared_error: 0.2117 - mean_absolute_error: 0.3792
+ 5536/60000 [=>............................] - ETA: 1:15 - loss: 0.2110 - mean_squared_error: 0.2110 - mean_absolute_error: 0.3789
+ 5600/60000 [=>............................] - ETA: 1:15 - loss: 0.2100 - mean_squared_error: 0.2100 - mean_absolute_error: 0.3780
+ 5664/60000 [=>............................] - ETA: 1:15 - loss: 0.2093 - mean_squared_error: 0.2093 - mean_absolute_error: 0.3774
+ 5728/60000 [=>............................] - ETA: 1:15 - loss: 0.2085 - mean_squared_error: 0.2085 - mean_absolute_error: 0.3770
+ 5792/60000 [=>............................] - ETA: 1:14 - loss: 0.2078 - mean_squared_error: 0.2078 - mean_absolute_error: 0.3764
+ 5856/60000 [=>............................] - ETA: 1:14 - loss: 0.2073 - mean_squared_error: 0.2073 - mean_absolute_error: 0.3762
+ 5920/60000 [=>............................] - ETA: 1:14 - loss: 0.2066 - mean_squared_error: 0.2066 - mean_absolute_error: 0.3758
+ 5984/60000 [=>............................] - ETA: 1:14 - loss: 0.2062 - mean_squared_error: 0.2062 - mean_absolute_error: 0.3756
+ 6048/60000 [==>...........................] - ETA: 1:14 - loss: 0.2054 - mean_squared_error: 0.2054 - mean_absolute_error: 0.3752
+ 6112/60000 [==>...........................] - ETA: 1:14 - loss: 0.2049 - mean_squared_error: 0.2049 - mean_absolute_error: 0.3749
+ 6176/60000 [==>...........................] - ETA: 1:14 - loss: 0.2043 - mean_squared_error: 0.2043 - mean_absolute_error: 0.3747
+ 6240/60000 [==>...........................] - ETA: 1:14 - loss: 0.2038 - mean_squared_error: 0.2038 - mean_absolute_error: 0.3742
+ 6304/60000 [==>...........................] - ETA: 1:14 - loss: 0.2031 - mean_squared_error: 0.2031 - mean_absolute_error: 0.3738
+ 6368/60000 [==>...........................] - ETA: 1:14 - loss: 0.2024 - mean_squared_error: 0.2024 - mean_absolute_error: 0.3734
+ 6432/60000 [==>...........................] - ETA: 1:13 - loss: 0.2020 - mean_squared_error: 0.2020 - mean_absolute_error: 0.3732
+ 6496/60000 [==>...........................] - ETA: 1:13 - loss: 0.2015 - mean_squared_error: 0.2015 - mean_absolute_error: 0.3730
+ 6560/60000 [==>...........................] - ETA: 1:13 - loss: 0.2009 - mean_squared_error: 0.2009 - mean_absolute_error: 0.3727
+ 6624/60000 [==>...........................] - ETA: 1:13 - loss: 0.2002 - mean_squared_error: 0.2002 - mean_absolute_error: 0.3721
+ 6688/60000 [==>...........................] - ETA: 1:13 - loss: 0.1997 - mean_squared_error: 0.1997 - mean_absolute_error: 0.3718
+ 6752/60000 [==>...........................] - ETA: 1:13 - loss: 0.1991 - mean_squared_error: 0.1991 - mean_absolute_error: 0.3713
+ 6816/60000 [==>...........................] - ETA: 1:13 - loss: 0.1985 - mean_squared_error: 0.1985 - mean_absolute_error: 0.3707
+ 6880/60000 [==>...........................] - ETA: 1:13 - loss: 0.1980 - mean_squared_error: 0.1980 - mean_absolute_error: 0.3704
+ 6944/60000 [==>...........................] - ETA: 1:13 - loss: 0.1975 - mean_squared_error: 0.1975 - mean_absolute_error: 0.3700
+ 7008/60000 [==>...........................] - ETA: 1:13 - loss: 0.1972 - mean_squared_error: 0.1972 - mean_absolute_error: 0.3699
+ 7072/60000 [==>...........................] - ETA: 1:12 - loss: 0.1967 - mean_squared_error: 0.1967 - mean_absolute_error: 0.3697
+ 7136/60000 [==>...........................] - ETA: 1:12 - loss: 0.1962 - mean_squared_error: 0.1962 - mean_absolute_error: 0.3693
+ 7200/60000 [==>...........................] - ETA: 1:12 - loss: 0.1956 - mean_squared_error: 0.1956 - mean_absolute_error: 0.3689
+ 7264/60000 [==>...........................] - ETA: 1:12 - loss: 0.1954 - mean_squared_error: 0.1954 - mean_absolute_error: 0.3691
+ 7328/60000 [==>...........................] - ETA: 1:12 - loss: 0.1951 - mean_squared_error: 0.1951 - mean_absolute_error: 0.3689
+ 7392/60000 [==>...........................] - ETA: 1:12 - loss: 0.1946 - mean_squared_error: 0.1946 - mean_absolute_error: 0.3685
+ 7456/60000 [==>...........................] - ETA: 1:12 - loss: 0.1941 - mean_squared_error: 0.1941 - mean_absolute_error: 0.3682
+ 7520/60000 [==>...........................] - ETA: 1:12 - loss: 0.1937 - mean_squared_error: 0.1937 - mean_absolute_error: 0.3680
+ 7584/60000 [==>...........................] - ETA: 1:12 - loss: 0.1933 - mean_squared_error: 0.1933 - mean_absolute_error: 0.3677
+ 7648/60000 [==>...........................] - ETA: 1:12 - loss: 0.1927 - mean_squared_error: 0.1927 - mean_absolute_error: 0.3673
+ 7712/60000 [==>...........................] - ETA: 1:12 - loss: 0.1921 - mean_squared_error: 0.1921 - mean_absolute_error: 0.3668
+ 7776/60000 [==>...........................] - ETA: 1:11 - loss: 0.1916 - mean_squared_error: 0.1916 - mean_absolute_error: 0.3664
+ 7840/60000 [==>...........................] - ETA: 1:11 - loss: 0.1913 - mean_squared_error: 0.1913 - mean_absolute_error: 0.3663
+ 7904/60000 [==>...........................] - ETA: 1:11 - loss: 0.1909 - mean_squared_error: 0.1909 - mean_absolute_error: 0.3661
+ 7968/60000 [==>...........................] - ETA: 1:11 - loss: 0.1904 - mean_squared_error: 0.1904 - mean_absolute_error: 0.3657
+ 8032/60000 [===>..........................] - ETA: 1:11 - loss: 0.1901 - mean_squared_error: 0.1901 - mean_absolute_error: 0.3656
+ 8096/60000 [===>..........................] - ETA: 1:11 - loss: 0.1897 - mean_squared_error: 0.1897 - mean_absolute_error: 0.3653
+ 8160/60000 [===>..........................] - ETA: 1:11 - loss: 0.1895 - mean_squared_error: 0.1895 - mean_absolute_error: 0.3653
+ 8224/60000 [===>..........................] - ETA: 1:11 - loss: 0.1892 - mean_squared_error: 0.1892 - mean_absolute_error: 0.3651
+ 8288/60000 [===>..........................] - ETA: 1:11 - loss: 0.1890 - mean_squared_error: 0.1890 - mean_absolute_error: 0.3651
+ 8352/60000 [===>..........................] - ETA: 1:11 - loss: 0.1885 - mean_squared_error: 0.1885 - mean_absolute_error: 0.3647
+ 8416/60000 [===>..........................] - ETA: 1:10 - loss: 0.1881 - mean_squared_error: 0.1881 - mean_absolute_error: 0.3643
+ 8480/60000 [===>..........................] - ETA: 1:10 - loss: 0.1877 - mean_squared_error: 0.1877 - mean_absolute_error: 0.3641
+ 8544/60000 [===>..........................] - ETA: 1:10 - loss: 0.1875 - mean_squared_error: 0.1875 - mean_absolute_error: 0.3641
+ 8608/60000 [===>..........................] - ETA: 1:10 - loss: 0.1873 - mean_squared_error: 0.1873 - mean_absolute_error: 0.3640
+ 8672/60000 [===>..........................] - ETA: 1:10 - loss: 0.1870 - mean_squared_error: 0.1870 - mean_absolute_error: 0.3638
+ 8736/60000 [===>..........................] - ETA: 1:10 - loss: 0.1867 - mean_squared_error: 0.1867 - mean_absolute_error: 0.3636
+ 8800/60000 [===>..........................] - ETA: 1:10 - loss: 0.1864 - mean_squared_error: 0.1864 - mean_absolute_error: 0.3636
+ 8864/60000 [===>..........................] - ETA: 1:10 - loss: 0.1862 - mean_squared_error: 0.1862 - mean_absolute_error: 0.3635
+ 8928/60000 [===>..........................] - ETA: 1:10 - loss: 0.1858 - mean_squared_error: 0.1858 - mean_absolute_error: 0.3631
+ 8992/60000 [===>..........................] - ETA: 1:10 - loss: 0.1856 - mean_squared_error: 0.1856 - mean_absolute_error: 0.3630
+ 9056/60000 [===>..........................] - ETA: 1:10 - loss: 0.1852 - mean_squared_error: 0.1852 - mean_absolute_error: 0.3626
+ 9120/60000 [===>..........................] - ETA: 1:09 - loss: 0.1850 - mean_squared_error: 0.1850 - mean_absolute_error: 0.3625
+ 9184/60000 [===>..........................] - ETA: 1:09 - loss: 0.1850 - mean_squared_error: 0.1850 - mean_absolute_error: 0.3627
+ 9248/60000 [===>..........................] - ETA: 1:09 - loss: 0.1846 - mean_squared_error: 0.1846 - mean_absolute_error: 0.3624
+ 9312/60000 [===>..........................] - ETA: 1:09 - loss: 0.1842 - mean_squared_error: 0.1842 - mean_absolute_error: 0.3621
+ 9376/60000 [===>..........................] - ETA: 1:09 - loss: 0.1841 - mean_squared_error: 0.1841 - mean_absolute_error: 0.3621
+ 9440/60000 [===>..........................] - ETA: 1:09 - loss: 0.1836 - mean_squared_error: 0.1836 - mean_absolute_error: 0.3617
+ 9504/60000 [===>..........................] - ETA: 1:09 - loss: 0.1833 - mean_squared_error: 0.1833 - mean_absolute_error: 0.3614
+ 9568/60000 [===>..........................] - ETA: 1:09 - loss: 0.1832 - mean_squared_error: 0.1832 - mean_absolute_error: 0.3615
+ 9632/60000 [===>..........................] - ETA: 1:09 - loss: 0.1829 - mean_squared_error: 0.1829 - mean_absolute_error: 0.3613
+ 9696/60000 [===>..........................] - ETA: 1:09 - loss: 0.1825 - mean_squared_error: 0.1825 - mean_absolute_error: 0.3610
+ 9760/60000 [===>..........................] - ETA: 1:09 - loss: 0.1821 - mean_squared_error: 0.1821 - mean_absolute_error: 0.3606
+ 9824/60000 [===>..........................] - ETA: 1:08 - loss: 0.1819 - mean_squared_error: 0.1819 - mean_absolute_error: 0.3604
+ 9888/60000 [===>..........................] - ETA: 1:08 - loss: 0.1816 - mean_squared_error: 0.1816 - mean_absolute_error: 0.3602
+ 9952/60000 [===>..........................] - ETA: 1:08 - loss: 0.1811 - mean_squared_error: 0.1811 - mean_absolute_error: 0.3597
+10016/60000 [====>.........................] - ETA: 1:08 - loss: 0.1809 - mean_squared_error: 0.1809 - mean_absolute_error: 0.3596
+10080/60000 [====>.........................] - ETA: 1:08 - loss: 0.1807 - mean_squared_error: 0.1807 - mean_absolute_error: 0.3595
+10144/60000 [====>.........................] - ETA: 1:08 - loss: 0.1805 - mean_squared_error: 0.1805 - mean_absolute_error: 0.3594
+10208/60000 [====>.........................] - ETA: 1:08 - loss: 0.1802 - mean_squared_error: 0.1802 - mean_absolute_error: 0.3591
+10272/60000 [====>.........................] - ETA: 1:08 - loss: 0.1799 - mean_squared_error: 0.1799 - mean_absolute_error: 0.3589
+10336/60000 [====>.........................] - ETA: 1:08 - loss: 0.1797 - mean_squared_error: 0.1797 - mean_absolute_error: 0.3588
+10400/60000 [====>.........................] - ETA: 1:08 - loss: 0.1793 - mean_squared_error: 0.1793 - mean_absolute_error: 0.3585
+10464/60000 [====>.........................] - ETA: 1:08 - loss: 0.1792 - mean_squared_error: 0.1792 - mean_absolute_error: 0.3584
+10528/60000 [====>.........................] - ETA: 1:07 - loss: 0.1788 - mean_squared_error: 0.1788 - mean_absolute_error: 0.3581
+10592/60000 [====>.........................] - ETA: 1:07 - loss: 0.1787 - mean_squared_error: 0.1787 - mean_absolute_error: 0.3581
+10656/60000 [====>.........................] - ETA: 1:07 - loss: 0.1785 - mean_squared_error: 0.1785 - mean_absolute_error: 0.3580
+10720/60000 [====>.........................] - ETA: 1:07 - loss: 0.1783 - mean_squared_error: 0.1783 - mean_absolute_error: 0.3579
+10784/60000 [====>.........................] - ETA: 1:07 - loss: 0.1781 - mean_squared_error: 0.1781 - mean_absolute_error: 0.3578
+10848/60000 [====>.........................] - ETA: 1:07 - loss: 0.1778 - mean_squared_error: 0.1778 - mean_absolute_error: 0.3575
+10912/60000 [====>.........................] - ETA: 1:07 - loss: 0.1775 - mean_squared_error: 0.1775 - mean_absolute_error: 0.3572
+10976/60000 [====>.........................] - ETA: 1:07 - loss: 0.1772 - mean_squared_error: 0.1772 - mean_absolute_error: 0.3569
+11040/60000 [====>.........................] - ETA: 1:07 - loss: 0.1771 - mean_squared_error: 0.1771 - mean_absolute_error: 0.3569
+11104/60000 [====>.........................] - ETA: 1:07 - loss: 0.1771 - mean_squared_error: 0.1771 - mean_absolute_error: 0.3570
+11168/60000 [====>.........................] - ETA: 1:07 - loss: 0.1770 - mean_squared_error: 0.1770 - mean_absolute_error: 0.3571
+11232/60000 [====>.........................] - ETA: 1:06 - loss: 0.1768 - mean_squared_error: 0.1768 - mean_absolute_error: 0.3569
+11296/60000 [====>.........................] - ETA: 1:06 - loss: 0.1766 - mean_squared_error: 0.1766 - mean_absolute_error: 0.3568
+11360/60000 [====>.........................] - ETA: 1:06 - loss: 0.1764 - mean_squared_error: 0.1764 - mean_absolute_error: 0.3567
+11424/60000 [====>.........................] - ETA: 1:06 - loss: 0.1762 - mean_squared_error: 0.1762 - mean_absolute_error: 0.3566
+11488/60000 [====>.........................] - ETA: 1:06 - loss: 0.1760 - mean_squared_error: 0.1760 - mean_absolute_error: 0.3565
+11552/60000 [====>.........................] - ETA: 1:06 - loss: 0.1758 - mean_squared_error: 0.1758 - mean_absolute_error: 0.3564
+11616/60000 [====>.........................] - ETA: 1:06 - loss: 0.1757 - mean_squared_error: 0.1757 - mean_absolute_error: 0.3563
+11680/60000 [====>.........................] - ETA: 1:06 - loss: 0.1753 - mean_squared_error: 0.1753 - mean_absolute_error: 0.3560
+11744/60000 [====>.........................] - ETA: 1:06 - loss: 0.1753 - mean_squared_error: 0.1753 - mean_absolute_error: 0.3561
+11808/60000 [====>.........................] - ETA: 1:06 - loss: 0.1752 - mean_squared_error: 0.1752 - mean_absolute_error: 0.3560
+11872/60000 [====>.........................] - ETA: 1:06 - loss: 0.1750 - mean_squared_error: 0.1750 - mean_absolute_error: 0.3559
+11936/60000 [====>.........................] - ETA: 1:05 - loss: 0.1747 - mean_squared_error: 0.1747 - mean_absolute_error: 0.3556
+12000/60000 [=====>........................] - ETA: 1:05 - loss: 0.1746 - mean_squared_error: 0.1746 - mean_absolute_error: 0.3556
+12064/60000 [=====>........................] - ETA: 1:05 - loss: 0.1744 - mean_squared_error: 0.1744 - mean_absolute_error: 0.3555
+12128/60000 [=====>........................] - ETA: 1:05 - loss: 0.1743 - mean_squared_error: 0.1743 - mean_absolute_error: 0.3556
+12192/60000 [=====>........................] - ETA: 1:05 - loss: 0.1741 - mean_squared_error: 0.1741 - mean_absolute_error: 0.3553
+12256/60000 [=====>........................] - ETA: 1:05 - loss: 0.1738 - mean_squared_error: 0.1738 - mean_absolute_error: 0.3551
+12320/60000 [=====>........................] - ETA: 1:05 - loss: 0.1737 - mean_squared_error: 0.1737 - mean_absolute_error: 0.3551
+12384/60000 [=====>........................] - ETA: 1:05 - loss: 0.1735 - mean_squared_error: 0.1735 - mean_absolute_error: 0.3549
+12448/60000 [=====>........................] - ETA: 1:05 - loss: 0.1734 - mean_squared_error: 0.1734 - mean_absolute_error: 0.3549
+12512/60000 [=====>........................] - ETA: 1:05 - loss: 0.1733 - mean_squared_error: 0.1733 - mean_absolute_error: 0.3549
+12576/60000 [=====>........................] - ETA: 1:05 - loss: 0.1731 - mean_squared_error: 0.1731 - mean_absolute_error: 0.3548
+12640/60000 [=====>........................] - ETA: 1:04 - loss: 0.1728 - mean_squared_error: 0.1728 - mean_absolute_error: 0.3544
+12704/60000 [=====>........................] - ETA: 1:04 - loss: 0.1729 - mean_squared_error: 0.1729 - mean_absolute_error: 0.3546
+12768/60000 [=====>........................] - ETA: 1:04 - loss: 0.1727 - mean_squared_error: 0.1727 - mean_absolute_error: 0.3545
+12832/60000 [=====>........................] - ETA: 1:04 - loss: 0.1726 - mean_squared_error: 0.1726 - mean_absolute_error: 0.3545
+12896/60000 [=====>........................] - ETA: 1:04 - loss: 0.1724 - mean_squared_error: 0.1724 - mean_absolute_error: 0.3543
+12960/60000 [=====>........................] - ETA: 1:04 - loss: 0.1722 - mean_squared_error: 0.1722 - mean_absolute_error: 0.3542
+13024/60000 [=====>........................] - ETA: 1:04 - loss: 0.1720 - mean_squared_error: 0.1720 - mean_absolute_error: 0.3539
+13088/60000 [=====>........................] - ETA: 1:04 - loss: 0.1718 - mean_squared_error: 0.1718 - mean_absolute_error: 0.3538
+13152/60000 [=====>........................] - ETA: 1:04 - loss: 0.1718 - mean_squared_error: 0.1718 - mean_absolute_error: 0.3539
+13216/60000 [=====>........................] - ETA: 1:04 - loss: 0.1717 - mean_squared_error: 0.1717 - mean_absolute_error: 0.3540
+13280/60000 [=====>........................] - ETA: 1:04 - loss: 0.1715 - mean_squared_error: 0.1715 - mean_absolute_error: 0.3538
+13344/60000 [=====>........................] - ETA: 1:03 - loss: 0.1713 - mean_squared_error: 0.1713 - mean_absolute_error: 0.3536
+13408/60000 [=====>........................] - ETA: 1:03 - loss: 0.1711 - mean_squared_error: 0.1711 - mean_absolute_error: 0.3535
+13472/60000 [=====>........................] - ETA: 1:03 - loss: 0.1709 - mean_squared_error: 0.1709 - mean_absolute_error: 0.3533
+13536/60000 [=====>........................] - ETA: 1:03 - loss: 0.1708 - mean_squared_error: 0.1708 - mean_absolute_error: 0.3532
+13600/60000 [=====>........................] - ETA: 1:03 - loss: 0.1707 - mean_squared_error: 0.1707 - mean_absolute_error: 0.3532
+13664/60000 [=====>........................] - ETA: 1:03 - loss: 0.1706 - mean_squared_error: 0.1706 - mean_absolute_error: 0.3532
+13728/60000 [=====>........................] - ETA: 1:03 - loss: 0.1705 - mean_squared_error: 0.1705 - mean_absolute_error: 0.3532
+13792/60000 [=====>........................] - ETA: 1:03 - loss: 0.1704 - mean_squared_error: 0.1704 - mean_absolute_error: 0.3531
+13856/60000 [=====>........................] - ETA: 1:03 - loss: 0.1703 - mean_squared_error: 0.1703 - mean_absolute_error: 0.3531
+13920/60000 [=====>........................] - ETA: 1:03 - loss: 0.1702 - mean_squared_error: 0.1702 - mean_absolute_error: 0.3530
+13984/60000 [=====>........................] - ETA: 1:03 - loss: 0.1700 - mean_squared_error: 0.1700 - mean_absolute_error: 0.3528
+14048/60000 [======>.......................] - ETA: 1:02 - loss: 0.1698 - mean_squared_error: 0.1698 - mean_absolute_error: 0.3527
+14112/60000 [======>.......................] - ETA: 1:02 - loss: 0.1697 - mean_squared_error: 0.1697 - mean_absolute_error: 0.3526
+14176/60000 [======>.......................] - ETA: 1:02 - loss: 0.1694 - mean_squared_error: 0.1694 - mean_absolute_error: 0.3523
+14240/60000 [======>.......................] - ETA: 1:02 - loss: 0.1694 - mean_squared_error: 0.1694 - mean_absolute_error: 0.3524
+14304/60000 [======>.......................] - ETA: 1:02 - loss: 0.1694 - mean_squared_error: 0.1694 - mean_absolute_error: 0.3524
+14368/60000 [======>.......................] - ETA: 1:02 - loss: 0.1692 - mean_squared_error: 0.1692 - mean_absolute_error: 0.3522
+14432/60000 [======>.......................] - ETA: 1:02 - loss: 0.1691 - mean_squared_error: 0.1691 - mean_absolute_error: 0.3522
+14496/60000 [======>.......................] - ETA: 1:02 - loss: 0.1689 - mean_squared_error: 0.1689 - mean_absolute_error: 0.3520
+14560/60000 [======>.......................] - ETA: 1:02 - loss: 0.1688 - mean_squared_error: 0.1688 - mean_absolute_error: 0.3520
+14624/60000 [======>.......................] - ETA: 1:02 - loss: 0.1687 - mean_squared_error: 0.1687 - mean_absolute_error: 0.3519
+14688/60000 [======>.......................] - ETA: 1:02 - loss: 0.1685 - mean_squared_error: 0.1685 - mean_absolute_error: 0.3517
+14752/60000 [======>.......................] - ETA: 1:01 - loss: 0.1684 - mean_squared_error: 0.1684 - mean_absolute_error: 0.3517
+14816/60000 [======>.......................] - ETA: 1:01 - loss: 0.1682 - mean_squared_error: 0.1682 - mean_absolute_error: 0.3514
+14880/60000 [======>.......................] - ETA: 1:01 - loss: 0.1680 - mean_squared_error: 0.1680 - mean_absolute_error: 0.3512
+14944/60000 [======>.......................] - ETA: 1:01 - loss: 0.1678 - mean_squared_error: 0.1678 - mean_absolute_error: 0.3511
+15008/60000 [======>.......................] - ETA: 1:01 - loss: 0.1678 - mean_squared_error: 0.1678 - mean_absolute_error: 0.3511
+15072/60000 [======>.......................] - ETA: 1:01 - loss: 0.1677 - mean_squared_error: 0.1677 - mean_absolute_error: 0.3511
+15136/60000 [======>.......................] - ETA: 1:01 - loss: 0.1675 - mean_squared_error: 0.1675 - mean_absolute_error: 0.3509
+15200/60000 [======>.......................] - ETA: 1:01 - loss: 0.1675 - mean_squared_error: 0.1675 - mean_absolute_error: 0.3509
+15264/60000 [======>.......................] - ETA: 1:01 - loss: 0.1674 - mean_squared_error: 0.1674 - mean_absolute_error: 0.3509
+15328/60000 [======>.......................] - ETA: 1:01 - loss: 0.1673 - mean_squared_error: 0.1673 - mean_absolute_error: 0.3508
+15392/60000 [======>.......................] - ETA: 1:01 - loss: 0.1673 - mean_squared_error: 0.1673 - mean_absolute_error: 0.3509
+15456/60000 [======>.......................] - ETA: 1:01 - loss: 0.1672 - mean_squared_error: 0.1672 - mean_absolute_error: 0.3508
+15520/60000 [======>.......................] - ETA: 1:00 - loss: 0.1671 - mean_squared_error: 0.1671 - mean_absolute_error: 0.3507
+15584/60000 [======>.......................] - ETA: 1:00 - loss: 0.1669 - mean_squared_error: 0.1669 - mean_absolute_error: 0.3506
+15648/60000 [======>.......................] - ETA: 1:00 - loss: 0.1668 - mean_squared_error: 0.1668 - mean_absolute_error: 0.3504
+15712/60000 [======>.......................] - ETA: 1:00 - loss: 0.1668 - mean_squared_error: 0.1668 - mean_absolute_error: 0.3506
+15776/60000 [======>.......................] - ETA: 1:00 - loss: 0.1666 - mean_squared_error: 0.1666 - mean_absolute_error: 0.3504
+15840/60000 [======>.......................] - ETA: 1:00 - loss: 0.1665 - mean_squared_error: 0.1665 - mean_absolute_error: 0.3504
+15904/60000 [======>.......................] - ETA: 1:00 - loss: 0.1664 - mean_squared_error: 0.1664 - mean_absolute_error: 0.3502
+15968/60000 [======>.......................] - ETA: 1:00 - loss: 0.1663 - mean_squared_error: 0.1663 - mean_absolute_error: 0.3501
+16032/60000 [=======>......................] - ETA: 1:00 - loss: 0.1663 - mean_squared_error: 0.1663 - mean_absolute_error: 0.3502
+16096/60000 [=======>......................] - ETA: 1:00 - loss: 0.1662 - mean_squared_error: 0.1662 - mean_absolute_error: 0.3501
+16160/60000 [=======>......................] - ETA: 1:00 - loss: 0.1660 - mean_squared_error: 0.1660 - mean_absolute_error: 0.3500
+16224/60000 [=======>......................] - ETA: 59s - loss: 0.1660 - mean_squared_error: 0.1660 - mean_absolute_error: 0.3501 
+16288/60000 [=======>......................] - ETA: 59s - loss: 0.1659 - mean_squared_error: 0.1659 - mean_absolute_error: 0.3500
+16352/60000 [=======>......................] - ETA: 59s - loss: 0.1658 - mean_squared_error: 0.1658 - mean_absolute_error: 0.3499
+16416/60000 [=======>......................] - ETA: 59s - loss: 0.1658 - mean_squared_error: 0.1658 - mean_absolute_error: 0.3499
+16480/60000 [=======>......................] - ETA: 59s - loss: 0.1657 - mean_squared_error: 0.1657 - mean_absolute_error: 0.3499
+16544/60000 [=======>......................] - ETA: 59s - loss: 0.1656 - mean_squared_error: 0.1656 - mean_absolute_error: 0.3498
+16608/60000 [=======>......................] - ETA: 59s - loss: 0.1655 - mean_squared_error: 0.1655 - mean_absolute_error: 0.3498
+16672/60000 [=======>......................] - ETA: 59s - loss: 0.1654 - mean_squared_error: 0.1654 - mean_absolute_error: 0.3498
+16736/60000 [=======>......................] - ETA: 59s - loss: 0.1654 - mean_squared_error: 0.1654 - mean_absolute_error: 0.3498
+16800/60000 [=======>......................] - ETA: 59s - loss: 0.1654 - mean_squared_error: 0.1654 - mean_absolute_error: 0.3498
+16864/60000 [=======>......................] - ETA: 59s - loss: 0.1653 - mean_squared_error: 0.1653 - mean_absolute_error: 0.3498
+16928/60000 [=======>......................] - ETA: 58s - loss: 0.1653 - mean_squared_error: 0.1653 - mean_absolute_error: 0.3498
+16992/60000 [=======>......................] - ETA: 58s - loss: 0.1652 - mean_squared_error: 0.1652 - mean_absolute_error: 0.3498
+17056/60000 [=======>......................] - ETA: 58s - loss: 0.1651 - mean_squared_error: 0.1651 - mean_absolute_error: 0.3497
+17120/60000 [=======>......................] - ETA: 58s - loss: 0.1649 - mean_squared_error: 0.1649 - mean_absolute_error: 0.3495
+17184/60000 [=======>......................] - ETA: 58s - loss: 0.1648 - mean_squared_error: 0.1648 - mean_absolute_error: 0.3495
+17248/60000 [=======>......................] - ETA: 58s - loss: 0.1648 - mean_squared_error: 0.1648 - mean_absolute_error: 0.3494
+17312/60000 [=======>......................] - ETA: 58s - loss: 0.1647 - mean_squared_error: 0.1647 - mean_absolute_error: 0.3495
+17376/60000 [=======>......................] - ETA: 58s - loss: 0.1647 - mean_squared_error: 0.1647 - mean_absolute_error: 0.3495
+17440/60000 [=======>......................] - ETA: 58s - loss: 0.1646 - mean_squared_error: 0.1646 - mean_absolute_error: 0.3494
+17504/60000 [=======>......................] - ETA: 58s - loss: 0.1645 - mean_squared_error: 0.1645 - mean_absolute_error: 0.3494
+17568/60000 [=======>......................] - ETA: 58s - loss: 0.1644 - mean_squared_error: 0.1644 - mean_absolute_error: 0.3493
+17632/60000 [=======>......................] - ETA: 57s - loss: 0.1642 - mean_squared_error: 0.1642 - mean_absolute_error: 0.3492
+17696/60000 [=======>......................] - ETA: 57s - loss: 0.1642 - mean_squared_error: 0.1642 - mean_absolute_error: 0.3492
+17760/60000 [=======>......................] - ETA: 57s - loss: 0.1641 - mean_squared_error: 0.1641 - mean_absolute_error: 0.3491
+17824/60000 [=======>......................] - ETA: 57s - loss: 0.1641 - mean_squared_error: 0.1641 - mean_absolute_error: 0.3491
+17888/60000 [=======>......................] - ETA: 57s - loss: 0.1640 - mean_squared_error: 0.1640 - mean_absolute_error: 0.3491
+17952/60000 [=======>......................] - ETA: 57s - loss: 0.1639 - mean_squared_error: 0.1639 - mean_absolute_error: 0.3490
+18016/60000 [========>.....................] - ETA: 57s - loss: 0.1638 - mean_squared_error: 0.1638 - mean_absolute_error: 0.3488
+18080/60000 [========>.....................] - ETA: 57s - loss: 0.1637 - mean_squared_error: 0.1637 - mean_absolute_error: 0.3488
+18144/60000 [========>.....................] - ETA: 57s - loss: 0.1636 - mean_squared_error: 0.1636 - mean_absolute_error: 0.3488
+18208/60000 [========>.....................] - ETA: 57s - loss: 0.1636 - mean_squared_error: 0.1636 - mean_absolute_error: 0.3487
+18272/60000 [========>.....................] - ETA: 57s - loss: 0.1635 - mean_squared_error: 0.1635 - mean_absolute_error: 0.3487
+18336/60000 [========>.....................] - ETA: 57s - loss: 0.1634 - mean_squared_error: 0.1634 - mean_absolute_error: 0.3486
+18400/60000 [========>.....................] - ETA: 56s - loss: 0.1633 - mean_squared_error: 0.1633 - mean_absolute_error: 0.3485
+18464/60000 [========>.....................] - ETA: 56s - loss: 0.1632 - mean_squared_error: 0.1632 - mean_absolute_error: 0.3485
+18528/60000 [========>.....................] - ETA: 56s - loss: 0.1631 - mean_squared_error: 0.1631 - mean_absolute_error: 0.3484
+18592/60000 [========>.....................] - ETA: 56s - loss: 0.1630 - mean_squared_error: 0.1630 - mean_absolute_error: 0.3483
+18656/60000 [========>.....................] - ETA: 56s - loss: 0.1629 - mean_squared_error: 0.1629 - mean_absolute_error: 0.3483
+18720/60000 [========>.....................] - ETA: 56s - loss: 0.1629 - mean_squared_error: 0.1629 - mean_absolute_error: 0.3482
+18784/60000 [========>.....................] - ETA: 56s - loss: 0.1628 - mean_squared_error: 0.1628 - mean_absolute_error: 0.3482
+18848/60000 [========>.....................] - ETA: 56s - loss: 0.1627 - mean_squared_error: 0.1627 - mean_absolute_error: 0.3481
+18912/60000 [========>.....................] - ETA: 56s - loss: 0.1626 - mean_squared_error: 0.1626 - mean_absolute_error: 0.3479
+18976/60000 [========>.....................] - ETA: 56s - loss: 0.1624 - mean_squared_error: 0.1624 - mean_absolute_error: 0.3478
+19040/60000 [========>.....................] - ETA: 56s - loss: 0.1624 - mean_squared_error: 0.1624 - mean_absolute_error: 0.3478
+19104/60000 [========>.....................] - ETA: 55s - loss: 0.1623 - mean_squared_error: 0.1623 - mean_absolute_error: 0.3478
+19168/60000 [========>.....................] - ETA: 55s - loss: 0.1622 - mean_squared_error: 0.1622 - mean_absolute_error: 0.3477
+19232/60000 [========>.....................] - ETA: 55s - loss: 0.1622 - mean_squared_error: 0.1622 - mean_absolute_error: 0.3476
+19296/60000 [========>.....................] - ETA: 55s - loss: 0.1622 - mean_squared_error: 0.1622 - mean_absolute_error: 0.3477
+19360/60000 [========>.....................] - ETA: 55s - loss: 0.1621 - mean_squared_error: 0.1621 - mean_absolute_error: 0.3476
+19424/60000 [========>.....................] - ETA: 55s - loss: 0.1620 - mean_squared_error: 0.1620 - mean_absolute_error: 0.3476
+19488/60000 [========>.....................] - ETA: 55s - loss: 0.1620 - mean_squared_error: 0.1620 - mean_absolute_error: 0.3476
+19552/60000 [========>.....................] - ETA: 55s - loss: 0.1619 - mean_squared_error: 0.1619 - mean_absolute_error: 0.3475
+19616/60000 [========>.....................] - ETA: 55s - loss: 0.1619 - mean_squared_error: 0.1619 - mean_absolute_error: 0.3476
+19680/60000 [========>.....................] - ETA: 55s - loss: 0.1618 - mean_squared_error: 0.1618 - mean_absolute_error: 0.3475
+19744/60000 [========>.....................] - ETA: 55s - loss: 0.1618 - mean_squared_error: 0.1618 - mean_absolute_error: 0.3475
+19808/60000 [========>.....................] - ETA: 54s - loss: 0.1617 - mean_squared_error: 0.1617 - mean_absolute_error: 0.3475
+19872/60000 [========>.....................] - ETA: 54s - loss: 0.1617 - mean_squared_error: 0.1617 - mean_absolute_error: 0.3475
+19936/60000 [========>.....................] - ETA: 54s - loss: 0.1616 - mean_squared_error: 0.1616 - mean_absolute_error: 0.3475
+20000/60000 [=========>....................] - ETA: 54s - loss: 0.1616 - mean_squared_error: 0.1616 - mean_absolute_error: 0.3475
+20064/60000 [=========>....................] - ETA: 54s - loss: 0.1615 - mean_squared_error: 0.1615 - mean_absolute_error: 0.3474
+20128/60000 [=========>....................] - ETA: 54s - loss: 0.1614 - mean_squared_error: 0.1614 - mean_absolute_error: 0.3473
+20192/60000 [=========>....................] - ETA: 54s - loss: 0.1613 - mean_squared_error: 0.1613 - mean_absolute_error: 0.3473
+20256/60000 [=========>....................] - ETA: 54s - loss: 0.1613 - mean_squared_error: 0.1613 - mean_absolute_error: 0.3473
+20320/60000 [=========>....................] - ETA: 54s - loss: 0.1612 - mean_squared_error: 0.1612 - mean_absolute_error: 0.3473
+20384/60000 [=========>....................] - ETA: 54s - loss: 0.1612 - mean_squared_error: 0.1612 - mean_absolute_error: 0.3472
+20448/60000 [=========>....................] - ETA: 54s - loss: 0.1612 - mean_squared_error: 0.1612 - mean_absolute_error: 0.3472
+20512/60000 [=========>....................] - ETA: 54s - loss: 0.1611 - mean_squared_error: 0.1611 - mean_absolute_error: 0.3472
+20576/60000 [=========>....................] - ETA: 53s - loss: 0.1610 - mean_squared_error: 0.1610 - mean_absolute_error: 0.3472
+20640/60000 [=========>....................] - ETA: 53s - loss: 0.1609 - mean_squared_error: 0.1609 - mean_absolute_error: 0.3471
+20704/60000 [=========>....................] - ETA: 53s - loss: 0.1609 - mean_squared_error: 0.1609 - mean_absolute_error: 0.3471
+20768/60000 [=========>....................] - ETA: 53s - loss: 0.1608 - mean_squared_error: 0.1608 - mean_absolute_error: 0.3470
+20832/60000 [=========>....................] - ETA: 53s - loss: 0.1607 - mean_squared_error: 0.1607 - mean_absolute_error: 0.3470
+20896/60000 [=========>....................] - ETA: 53s - loss: 0.1607 - mean_squared_error: 0.1607 - mean_absolute_error: 0.3469
+20960/60000 [=========>....................] - ETA: 53s - loss: 0.1606 - mean_squared_error: 0.1606 - mean_absolute_error: 0.3469
+21024/60000 [=========>....................] - ETA: 53s - loss: 0.1605 - mean_squared_error: 0.1605 - mean_absolute_error: 0.3467
+21088/60000 [=========>....................] - ETA: 53s - loss: 0.1605 - mean_squared_error: 0.1605 - mean_absolute_error: 0.3467
+21152/60000 [=========>....................] - ETA: 53s - loss: 0.1603 - mean_squared_error: 0.1603 - mean_absolute_error: 0.3466
+21216/60000 [=========>....................] - ETA: 53s - loss: 0.1604 - mean_squared_error: 0.1604 - mean_absolute_error: 0.3467
+21280/60000 [=========>....................] - ETA: 52s - loss: 0.1603 - mean_squared_error: 0.1603 - mean_absolute_error: 0.3466
+21344/60000 [=========>....................] - ETA: 52s - loss: 0.1602 - mean_squared_error: 0.1602 - mean_absolute_error: 0.3466
+21408/60000 [=========>....................] - ETA: 52s - loss: 0.1602 - mean_squared_error: 0.1602 - mean_absolute_error: 0.3466
+21472/60000 [=========>....................] - ETA: 52s - loss: 0.1601 - mean_squared_error: 0.1601 - mean_absolute_error: 0.3465
+21536/60000 [=========>....................] - ETA: 52s - loss: 0.1600 - mean_squared_error: 0.1600 - mean_absolute_error: 0.3465
+21600/60000 [=========>....................] - ETA: 52s - loss: 0.1600 - mean_squared_error: 0.1600 - mean_absolute_error: 0.3465
+21664/60000 [=========>....................] - ETA: 52s - loss: 0.1599 - mean_squared_error: 0.1599 - mean_absolute_error: 0.3465
+21728/60000 [=========>....................] - ETA: 52s - loss: 0.1599 - mean_squared_error: 0.1599 - mean_absolute_error: 0.3465
+21792/60000 [=========>....................] - ETA: 52s - loss: 0.1599 - mean_squared_error: 0.1599 - mean_absolute_error: 0.3465
+21856/60000 [=========>....................] - ETA: 52s - loss: 0.1598 - mean_squared_error: 0.1598 - mean_absolute_error: 0.3465
+21920/60000 [=========>....................] - ETA: 52s - loss: 0.1597 - mean_squared_error: 0.1597 - mean_absolute_error: 0.3464
+21984/60000 [=========>....................] - ETA: 51s - loss: 0.1597 - mean_squared_error: 0.1597 - mean_absolute_error: 0.3464
+22048/60000 [==========>...................] - ETA: 51s - loss: 0.1597 - mean_squared_error: 0.1597 - mean_absolute_error: 0.3464
+22112/60000 [==========>...................] - ETA: 51s - loss: 0.1595 - mean_squared_error: 0.1595 - mean_absolute_error: 0.3463
+22176/60000 [==========>...................] - ETA: 51s - loss: 0.1595 - mean_squared_error: 0.1595 - mean_absolute_error: 0.3462
+22240/60000 [==========>...................] - ETA: 51s - loss: 0.1594 - mean_squared_error: 0.1594 - mean_absolute_error: 0.3462
+22304/60000 [==========>...................] - ETA: 51s - loss: 0.1593 - mean_squared_error: 0.1593 - mean_absolute_error: 0.3460
+22368/60000 [==========>...................] - ETA: 51s - loss: 0.1592 - mean_squared_error: 0.1592 - mean_absolute_error: 0.3459
+22432/60000 [==========>...................] - ETA: 51s - loss: 0.1592 - mean_squared_error: 0.1592 - mean_absolute_error: 0.3459
+22496/60000 [==========>...................] - ETA: 51s - loss: 0.1591 - mean_squared_error: 0.1591 - mean_absolute_error: 0.3458
+22560/60000 [==========>...................] - ETA: 51s - loss: 0.1590 - mean_squared_error: 0.1590 - mean_absolute_error: 0.3458
+22624/60000 [==========>...................] - ETA: 51s - loss: 0.1589 - mean_squared_error: 0.1589 - mean_absolute_error: 0.3457
+22688/60000 [==========>...................] - ETA: 51s - loss: 0.1589 - mean_squared_error: 0.1589 - mean_absolute_error: 0.3457
+22752/60000 [==========>...................] - ETA: 50s - loss: 0.1589 - mean_squared_error: 0.1589 - mean_absolute_error: 0.3456
+22816/60000 [==========>...................] - ETA: 50s - loss: 0.1588 - mean_squared_error: 0.1588 - mean_absolute_error: 0.3456
+22880/60000 [==========>...................] - ETA: 50s - loss: 0.1588 - mean_squared_error: 0.1588 - mean_absolute_error: 0.3456
+22944/60000 [==========>...................] - ETA: 50s - loss: 0.1588 - mean_squared_error: 0.1588 - mean_absolute_error: 0.3456
+23008/60000 [==========>...................] - ETA: 50s - loss: 0.1587 - mean_squared_error: 0.1587 - mean_absolute_error: 0.3455
+23072/60000 [==========>...................] - ETA: 50s - loss: 0.1586 - mean_squared_error: 0.1586 - mean_absolute_error: 0.3454
+23136/60000 [==========>...................] - ETA: 50s - loss: 0.1586 - mean_squared_error: 0.1586 - mean_absolute_error: 0.3455
+23200/60000 [==========>...................] - ETA: 50s - loss: 0.1585 - mean_squared_error: 0.1585 - mean_absolute_error: 0.3454
+23264/60000 [==========>...................] - ETA: 50s - loss: 0.1585 - mean_squared_error: 0.1585 - mean_absolute_error: 0.3455
+23328/60000 [==========>...................] - ETA: 50s - loss: 0.1585 - mean_squared_error: 0.1585 - mean_absolute_error: 0.3454
+23392/60000 [==========>...................] - ETA: 50s - loss: 0.1584 - mean_squared_error: 0.1584 - mean_absolute_error: 0.3454
+23456/60000 [==========>...................] - ETA: 49s - loss: 0.1584 - mean_squared_error: 0.1584 - mean_absolute_error: 0.3454
+23520/60000 [==========>...................] - ETA: 49s - loss: 0.1583 - mean_squared_error: 0.1583 - mean_absolute_error: 0.3453
+23584/60000 [==========>...................] - ETA: 49s - loss: 0.1583 - mean_squared_error: 0.1583 - mean_absolute_error: 0.3452
+23648/60000 [==========>...................] - ETA: 49s - loss: 0.1582 - mean_squared_error: 0.1582 - mean_absolute_error: 0.3451
+23712/60000 [==========>...................] - ETA: 49s - loss: 0.1581 - mean_squared_error: 0.1581 - mean_absolute_error: 0.3451
+23776/60000 [==========>...................] - ETA: 49s - loss: 0.1580 - mean_squared_error: 0.1580 - mean_absolute_error: 0.3449
+23840/60000 [==========>...................] - ETA: 49s - loss: 0.1579 - mean_squared_error: 0.1579 - mean_absolute_error: 0.3449
+23904/60000 [==========>...................] - ETA: 49s - loss: 0.1579 - mean_squared_error: 0.1579 - mean_absolute_error: 0.3449
+23968/60000 [==========>...................] - ETA: 49s - loss: 0.1579 - mean_squared_error: 0.1579 - mean_absolute_error: 0.3450
+24032/60000 [===========>..................] - ETA: 49s - loss: 0.1578 - mean_squared_error: 0.1578 - mean_absolute_error: 0.3449
+24096/60000 [===========>..................] - ETA: 49s - loss: 0.1578 - mean_squared_error: 0.1578 - mean_absolute_error: 0.3449
+24160/60000 [===========>..................] - ETA: 48s - loss: 0.1577 - mean_squared_error: 0.1577 - mean_absolute_error: 0.3448
+24224/60000 [===========>..................] - ETA: 48s - loss: 0.1577 - mean_squared_error: 0.1577 - mean_absolute_error: 0.3448
+24288/60000 [===========>..................] - ETA: 48s - loss: 0.1576 - mean_squared_error: 0.1576 - mean_absolute_error: 0.3448
+24352/60000 [===========>..................] - ETA: 48s - loss: 0.1576 - mean_squared_error: 0.1576 - mean_absolute_error: 0.3448
+24416/60000 [===========>..................] - ETA: 48s - loss: 0.1575 - mean_squared_error: 0.1575 - mean_absolute_error: 0.3446
+24480/60000 [===========>..................] - ETA: 48s - loss: 0.1573 - mean_squared_error: 0.1573 - mean_absolute_error: 0.3445
+24544/60000 [===========>..................] - ETA: 48s - loss: 0.1573 - mean_squared_error: 0.1573 - mean_absolute_error: 0.3445
+24608/60000 [===========>..................] - ETA: 48s - loss: 0.1572 - mean_squared_error: 0.1572 - mean_absolute_error: 0.3444
+24672/60000 [===========>..................] - ETA: 48s - loss: 0.1572 - mean_squared_error: 0.1572 - mean_absolute_error: 0.3444
+24736/60000 [===========>..................] - ETA: 48s - loss: 0.1572 - mean_squared_error: 0.1572 - mean_absolute_error: 0.3444
+24800/60000 [===========>..................] - ETA: 48s - loss: 0.1571 - mean_squared_error: 0.1571 - mean_absolute_error: 0.3444
+24864/60000 [===========>..................] - ETA: 48s - loss: 0.1570 - mean_squared_error: 0.1570 - mean_absolute_error: 0.3442
+24928/60000 [===========>..................] - ETA: 47s - loss: 0.1569 - mean_squared_error: 0.1569 - mean_absolute_error: 0.3441
+24992/60000 [===========>..................] - ETA: 47s - loss: 0.1569 - mean_squared_error: 0.1569 - mean_absolute_error: 0.3442
+25056/60000 [===========>..................] - ETA: 47s - loss: 0.1568 - mean_squared_error: 0.1568 - mean_absolute_error: 0.3441
+25120/60000 [===========>..................] - ETA: 47s - loss: 0.1568 - mean_squared_error: 0.1568 - mean_absolute_error: 0.3441
+25184/60000 [===========>..................] - ETA: 47s - loss: 0.1568 - mean_squared_error: 0.1568 - mean_absolute_error: 0.3442
+25248/60000 [===========>..................] - ETA: 47s - loss: 0.1568 - mean_squared_error: 0.1568 - mean_absolute_error: 0.3441
+25312/60000 [===========>..................] - ETA: 47s - loss: 0.1567 - mean_squared_error: 0.1567 - mean_absolute_error: 0.3440
+25376/60000 [===========>..................] - ETA: 47s - loss: 0.1567 - mean_squared_error: 0.1567 - mean_absolute_error: 0.3440
+25440/60000 [===========>..................] - ETA: 47s - loss: 0.1566 - mean_squared_error: 0.1566 - mean_absolute_error: 0.3440
+25504/60000 [===========>..................] - ETA: 47s - loss: 0.1565 - mean_squared_error: 0.1565 - mean_absolute_error: 0.3439
+25568/60000 [===========>..................] - ETA: 47s - loss: 0.1565 - mean_squared_error: 0.1565 - mean_absolute_error: 0.3439
+25632/60000 [===========>..................] - ETA: 46s - loss: 0.1564 - mean_squared_error: 0.1564 - mean_absolute_error: 0.3438
+25696/60000 [===========>..................] - ETA: 46s - loss: 0.1564 - mean_squared_error: 0.1564 - mean_absolute_error: 0.3438
+25760/60000 [===========>..................] - ETA: 46s - loss: 0.1564 - mean_squared_error: 0.1564 - mean_absolute_error: 0.3438
+25824/60000 [===========>..................] - ETA: 46s - loss: 0.1564 - mean_squared_error: 0.1564 - mean_absolute_error: 0.3438
+25888/60000 [===========>..................] - ETA: 46s - loss: 0.1564 - mean_squared_error: 0.1564 - mean_absolute_error: 0.3438
+25952/60000 [===========>..................] - ETA: 46s - loss: 0.1564 - mean_squared_error: 0.1564 - mean_absolute_error: 0.3438
+26016/60000 [============>.................] - ETA: 46s - loss: 0.1563 - mean_squared_error: 0.1563 - mean_absolute_error: 0.3438
+26080/60000 [============>.................] - ETA: 46s - loss: 0.1563 - mean_squared_error: 0.1563 - mean_absolute_error: 0.3438
+26144/60000 [============>.................] - ETA: 46s - loss: 0.1563 - mean_squared_error: 0.1563 - mean_absolute_error: 0.3438
+26208/60000 [============>.................] - ETA: 46s - loss: 0.1562 - mean_squared_error: 0.1562 - mean_absolute_error: 0.3437
+26272/60000 [============>.................] - ETA: 46s - loss: 0.1562 - mean_squared_error: 0.1562 - mean_absolute_error: 0.3438
+26336/60000 [============>.................] - ETA: 46s - loss: 0.1561 - mean_squared_error: 0.1561 - mean_absolute_error: 0.3438
+26400/60000 [============>.................] - ETA: 45s - loss: 0.1561 - mean_squared_error: 0.1561 - mean_absolute_error: 0.3438
+26464/60000 [============>.................] - ETA: 45s - loss: 0.1560 - mean_squared_error: 0.1560 - mean_absolute_error: 0.3437
+26528/60000 [============>.................] - ETA: 45s - loss: 0.1560 - mean_squared_error: 0.1560 - mean_absolute_error: 0.3437
+26592/60000 [============>.................] - ETA: 45s - loss: 0.1559 - mean_squared_error: 0.1559 - mean_absolute_error: 0.3436
+26656/60000 [============>.................] - ETA: 45s - loss: 0.1559 - mean_squared_error: 0.1559 - mean_absolute_error: 0.3436
+26720/60000 [============>.................] - ETA: 45s - loss: 0.1559 - mean_squared_error: 0.1559 - mean_absolute_error: 0.3436
+26784/60000 [============>.................] - ETA: 45s - loss: 0.1558 - mean_squared_error: 0.1558 - mean_absolute_error: 0.3436
+26848/60000 [============>.................] - ETA: 45s - loss: 0.1558 - mean_squared_error: 0.1558 - mean_absolute_error: 0.3436
+26912/60000 [============>.................] - ETA: 45s - loss: 0.1558 - mean_squared_error: 0.1558 - mean_absolute_error: 0.3435
+26976/60000 [============>.................] - ETA: 45s - loss: 0.1557 - mean_squared_error: 0.1557 - mean_absolute_error: 0.3435
+27040/60000 [============>.................] - ETA: 45s - loss: 0.1557 - mean_squared_error: 0.1557 - mean_absolute_error: 0.3435
+27104/60000 [============>.................] - ETA: 44s - loss: 0.1556 - mean_squared_error: 0.1556 - mean_absolute_error: 0.3434
+27168/60000 [============>.................] - ETA: 44s - loss: 0.1556 - mean_squared_error: 0.1556 - mean_absolute_error: 0.3434
+27232/60000 [============>.................] - ETA: 44s - loss: 0.1555 - mean_squared_error: 0.1555 - mean_absolute_error: 0.3434
+27296/60000 [============>.................] - ETA: 44s - loss: 0.1555 - mean_squared_error: 0.1555 - mean_absolute_error: 0.3434
+27360/60000 [============>.................] - ETA: 44s - loss: 0.1555 - mean_squared_error: 0.1555 - mean_absolute_error: 0.3433
+27424/60000 [============>.................] - ETA: 44s - loss: 0.1555 - mean_squared_error: 0.1555 - mean_absolute_error: 0.3434
+27488/60000 [============>.................] - ETA: 44s - loss: 0.1555 - mean_squared_error: 0.1555 - mean_absolute_error: 0.3433
+27552/60000 [============>.................] - ETA: 44s - loss: 0.1554 - mean_squared_error: 0.1554 - mean_absolute_error: 0.3433
+27616/60000 [============>.................] - ETA: 44s - loss: 0.1554 - mean_squared_error: 0.1554 - mean_absolute_error: 0.3433
+27680/60000 [============>.................] - ETA: 44s - loss: 0.1553 - mean_squared_error: 0.1553 - mean_absolute_error: 0.3433
+27744/60000 [============>.................] - ETA: 44s - loss: 0.1553 - mean_squared_error: 0.1553 - mean_absolute_error: 0.3432
+27808/60000 [============>.................] - ETA: 43s - loss: 0.1552 - mean_squared_error: 0.1552 - mean_absolute_error: 0.3432
+27872/60000 [============>.................] - ETA: 43s - loss: 0.1552 - mean_squared_error: 0.1552 - mean_absolute_error: 0.3432
+27936/60000 [============>.................] - ETA: 43s - loss: 0.1552 - mean_squared_error: 0.1552 - mean_absolute_error: 0.3432
+28000/60000 [=============>................] - ETA: 43s - loss: 0.1552 - mean_squared_error: 0.1552 - mean_absolute_error: 0.3433
+28064/60000 [=============>................] - ETA: 43s - loss: 0.1552 - mean_squared_error: 0.1552 - mean_absolute_error: 0.3433
+28128/60000 [=============>................] - ETA: 43s - loss: 0.1551 - mean_squared_error: 0.1551 - mean_absolute_error: 0.3432
+28192/60000 [=============>................] - ETA: 43s - loss: 0.1551 - mean_squared_error: 0.1551 - mean_absolute_error: 0.3432
+28256/60000 [=============>................] - ETA: 43s - loss: 0.1551 - mean_squared_error: 0.1551 - mean_absolute_error: 0.3432
+28320/60000 [=============>................] - ETA: 43s - loss: 0.1551 - mean_squared_error: 0.1551 - mean_absolute_error: 0.3432
+28384/60000 [=============>................] - ETA: 43s - loss: 0.1551 - mean_squared_error: 0.1551 - mean_absolute_error: 0.3432
+28448/60000 [=============>................] - ETA: 43s - loss: 0.1550 - mean_squared_error: 0.1550 - mean_absolute_error: 0.3432
+28512/60000 [=============>................] - ETA: 43s - loss: 0.1550 - mean_squared_error: 0.1550 - mean_absolute_error: 0.3432
+28576/60000 [=============>................] - ETA: 42s - loss: 0.1550 - mean_squared_error: 0.1550 - mean_absolute_error: 0.3432
+28640/60000 [=============>................] - ETA: 42s - loss: 0.1549 - mean_squared_error: 0.1549 - mean_absolute_error: 0.3432
+28704/60000 [=============>................] - ETA: 42s - loss: 0.1549 - mean_squared_error: 0.1549 - mean_absolute_error: 0.3431
+28768/60000 [=============>................] - ETA: 42s - loss: 0.1549 - mean_squared_error: 0.1549 - mean_absolute_error: 0.3431
+28832/60000 [=============>................] - ETA: 42s - loss: 0.1548 - mean_squared_error: 0.1548 - mean_absolute_error: 0.3431
+28896/60000 [=============>................] - ETA: 42s - loss: 0.1548 - mean_squared_error: 0.1548 - mean_absolute_error: 0.3431
+28960/60000 [=============>................] - ETA: 42s - loss: 0.1547 - mean_squared_error: 0.1547 - mean_absolute_error: 0.3430
+29024/60000 [=============>................] - ETA: 42s - loss: 0.1547 - mean_squared_error: 0.1547 - mean_absolute_error: 0.3430
+29088/60000 [=============>................] - ETA: 42s - loss: 0.1547 - mean_squared_error: 0.1547 - mean_absolute_error: 0.3429
+29152/60000 [=============>................] - ETA: 42s - loss: 0.1547 - mean_squared_error: 0.1547 - mean_absolute_error: 0.3430
+29216/60000 [=============>................] - ETA: 42s - loss: 0.1546 - mean_squared_error: 0.1546 - mean_absolute_error: 0.3430
+29280/60000 [=============>................] - ETA: 41s - loss: 0.1546 - mean_squared_error: 0.1546 - mean_absolute_error: 0.3429
+29344/60000 [=============>................] - ETA: 41s - loss: 0.1546 - mean_squared_error: 0.1546 - mean_absolute_error: 0.3429
+29408/60000 [=============>................] - ETA: 41s - loss: 0.1545 - mean_squared_error: 0.1545 - mean_absolute_error: 0.3429
+29472/60000 [=============>................] - ETA: 41s - loss: 0.1545 - mean_squared_error: 0.1545 - mean_absolute_error: 0.3429
+29536/60000 [=============>................] - ETA: 41s - loss: 0.1544 - mean_squared_error: 0.1544 - mean_absolute_error: 0.3428
+29600/60000 [=============>................] - ETA: 41s - loss: 0.1544 - mean_squared_error: 0.1544 - mean_absolute_error: 0.3428
+29664/60000 [=============>................] - ETA: 41s - loss: 0.1543 - mean_squared_error: 0.1543 - mean_absolute_error: 0.3427
+29728/60000 [=============>................] - ETA: 41s - loss: 0.1544 - mean_squared_error: 0.1544 - mean_absolute_error: 0.3428
+29792/60000 [=============>................] - ETA: 41s - loss: 0.1544 - mean_squared_error: 0.1544 - mean_absolute_error: 0.3428
+29856/60000 [=============>................] - ETA: 41s - loss: 0.1543 - mean_squared_error: 0.1543 - mean_absolute_error: 0.3428
+29920/60000 [=============>................] - ETA: 41s - loss: 0.1543 - mean_squared_error: 0.1543 - mean_absolute_error: 0.3428
+29984/60000 [=============>................] - ETA: 41s - loss: 0.1543 - mean_squared_error: 0.1543 - mean_absolute_error: 0.3427
+30048/60000 [==============>...............] - ETA: 40s - loss: 0.1542 - mean_squared_error: 0.1542 - mean_absolute_error: 0.3426
+30112/60000 [==============>...............] - ETA: 40s - loss: 0.1542 - mean_squared_error: 0.1542 - mean_absolute_error: 0.3426
+30176/60000 [==============>...............] - ETA: 40s - loss: 0.1542 - mean_squared_error: 0.1542 - mean_absolute_error: 0.3426
+30240/60000 [==============>...............] - ETA: 40s - loss: 0.1541 - mean_squared_error: 0.1541 - mean_absolute_error: 0.3426
+30304/60000 [==============>...............] - ETA: 40s - loss: 0.1541 - mean_squared_error: 0.1541 - mean_absolute_error: 0.3426
+30368/60000 [==============>...............] - ETA: 40s - loss: 0.1541 - mean_squared_error: 0.1541 - mean_absolute_error: 0.3426
+30432/60000 [==============>...............] - ETA: 40s - loss: 0.1540 - mean_squared_error: 0.1540 - mean_absolute_error: 0.3425
+30496/60000 [==============>...............] - ETA: 40s - loss: 0.1539 - mean_squared_error: 0.1539 - mean_absolute_error: 0.3424
+30560/60000 [==============>...............] - ETA: 40s - loss: 0.1538 - mean_squared_error: 0.1538 - mean_absolute_error: 0.3423
+30624/60000 [==============>...............] - ETA: 40s - loss: 0.1538 - mean_squared_error: 0.1538 - mean_absolute_error: 0.3423
+30688/60000 [==============>...............] - ETA: 40s - loss: 0.1538 - mean_squared_error: 0.1538 - mean_absolute_error: 0.3423
+30752/60000 [==============>...............] - ETA: 39s - loss: 0.1538 - mean_squared_error: 0.1538 - mean_absolute_error: 0.3423
+30816/60000 [==============>...............] - ETA: 39s - loss: 0.1538 - mean_squared_error: 0.1538 - mean_absolute_error: 0.3424
+30880/60000 [==============>...............] - ETA: 39s - loss: 0.1538 - mean_squared_error: 0.1538 - mean_absolute_error: 0.3424
+30944/60000 [==============>...............] - ETA: 39s - loss: 0.1538 - mean_squared_error: 0.1538 - mean_absolute_error: 0.3424
+31008/60000 [==============>...............] - ETA: 39s - loss: 0.1537 - mean_squared_error: 0.1537 - mean_absolute_error: 0.3424
+31072/60000 [==============>...............] - ETA: 39s - loss: 0.1537 - mean_squared_error: 0.1537 - mean_absolute_error: 0.3424
+31136/60000 [==============>...............] - ETA: 39s - loss: 0.1537 - mean_squared_error: 0.1537 - mean_absolute_error: 0.3423
+31200/60000 [==============>...............] - ETA: 39s - loss: 0.1536 - mean_squared_error: 0.1536 - mean_absolute_error: 0.3423
+31264/60000 [==============>...............] - ETA: 39s - loss: 0.1536 - mean_squared_error: 0.1536 - mean_absolute_error: 0.3423
+31328/60000 [==============>...............] - ETA: 39s - loss: 0.1535 - mean_squared_error: 0.1535 - mean_absolute_error: 0.3422
+31392/60000 [==============>...............] - ETA: 39s - loss: 0.1535 - mean_squared_error: 0.1535 - mean_absolute_error: 0.3422
+31456/60000 [==============>...............] - ETA: 38s - loss: 0.1534 - mean_squared_error: 0.1534 - mean_absolute_error: 0.3421
+31520/60000 [==============>...............] - ETA: 38s - loss: 0.1535 - mean_squared_error: 0.1535 - mean_absolute_error: 0.3422
+31584/60000 [==============>...............] - ETA: 38s - loss: 0.1535 - mean_squared_error: 0.1535 - mean_absolute_error: 0.3422
+31648/60000 [==============>...............] - ETA: 38s - loss: 0.1534 - mean_squared_error: 0.1534 - mean_absolute_error: 0.3422
+31712/60000 [==============>...............] - ETA: 38s - loss: 0.1534 - mean_squared_error: 0.1534 - mean_absolute_error: 0.3421
+31776/60000 [==============>...............] - ETA: 38s - loss: 0.1534 - mean_squared_error: 0.1534 - mean_absolute_error: 0.3421
+31840/60000 [==============>...............] - ETA: 38s - loss: 0.1534 - mean_squared_error: 0.1534 - mean_absolute_error: 0.3421
+31904/60000 [==============>...............] - ETA: 38s - loss: 0.1533 - mean_squared_error: 0.1533 - mean_absolute_error: 0.3420
+31968/60000 [==============>...............] - ETA: 38s - loss: 0.1532 - mean_squared_error: 0.1532 - mean_absolute_error: 0.3420
+32032/60000 [===============>..............] - ETA: 38s - loss: 0.1532 - mean_squared_error: 0.1532 - mean_absolute_error: 0.3420
+32096/60000 [===============>..............] - ETA: 38s - loss: 0.1532 - mean_squared_error: 0.1532 - mean_absolute_error: 0.3419
+32160/60000 [===============>..............] - ETA: 38s - loss: 0.1531 - mean_squared_error: 0.1531 - mean_absolute_error: 0.3418
+32224/60000 [===============>..............] - ETA: 37s - loss: 0.1530 - mean_squared_error: 0.1530 - mean_absolute_error: 0.3417
+32288/60000 [===============>..............] - ETA: 37s - loss: 0.1530 - mean_squared_error: 0.1530 - mean_absolute_error: 0.3418
+32352/60000 [===============>..............] - ETA: 37s - loss: 0.1530 - mean_squared_error: 0.1530 - mean_absolute_error: 0.3418
+32416/60000 [===============>..............] - ETA: 37s - loss: 0.1530 - mean_squared_error: 0.1530 - mean_absolute_error: 0.3418
+32480/60000 [===============>..............] - ETA: 37s - loss: 0.1529 - mean_squared_error: 0.1529 - mean_absolute_error: 0.3417
+32544/60000 [===============>..............] - ETA: 37s - loss: 0.1529 - mean_squared_error: 0.1529 - mean_absolute_error: 0.3417
+32608/60000 [===============>..............] - ETA: 37s - loss: 0.1529 - mean_squared_error: 0.1529 - mean_absolute_error: 0.3417
+32672/60000 [===============>..............] - ETA: 37s - loss: 0.1529 - mean_squared_error: 0.1529 - mean_absolute_error: 0.3417
+32736/60000 [===============>..............] - ETA: 37s - loss: 0.1529 - mean_squared_error: 0.1529 - mean_absolute_error: 0.3417
+32800/60000 [===============>..............] - ETA: 37s - loss: 0.1528 - mean_squared_error: 0.1528 - mean_absolute_error: 0.3417
+32864/60000 [===============>..............] - ETA: 37s - loss: 0.1528 - mean_squared_error: 0.1528 - mean_absolute_error: 0.3416
+32928/60000 [===============>..............] - ETA: 36s - loss: 0.1528 - mean_squared_error: 0.1528 - mean_absolute_error: 0.3417
+32992/60000 [===============>..............] - ETA: 36s - loss: 0.1528 - mean_squared_error: 0.1528 - mean_absolute_error: 0.3416
+33056/60000 [===============>..............] - ETA: 36s - loss: 0.1527 - mean_squared_error: 0.1527 - mean_absolute_error: 0.3416
+33120/60000 [===============>..............] - ETA: 36s - loss: 0.1526 - mean_squared_error: 0.1526 - mean_absolute_error: 0.3415
+33184/60000 [===============>..............] - ETA: 36s - loss: 0.1526 - mean_squared_error: 0.1526 - mean_absolute_error: 0.3415
+33248/60000 [===============>..............] - ETA: 36s - loss: 0.1526 - mean_squared_error: 0.1526 - mean_absolute_error: 0.3414
+33312/60000 [===============>..............] - ETA: 36s - loss: 0.1525 - mean_squared_error: 0.1525 - mean_absolute_error: 0.3414
+33376/60000 [===============>..............] - ETA: 36s - loss: 0.1525 - mean_squared_error: 0.1525 - mean_absolute_error: 0.3413
+33440/60000 [===============>..............] - ETA: 36s - loss: 0.1525 - mean_squared_error: 0.1525 - mean_absolute_error: 0.3413
+33504/60000 [===============>..............] - ETA: 36s - loss: 0.1524 - mean_squared_error: 0.1524 - mean_absolute_error: 0.3412
+33568/60000 [===============>..............] - ETA: 36s - loss: 0.1524 - mean_squared_error: 0.1524 - mean_absolute_error: 0.3412
+33632/60000 [===============>..............] - ETA: 36s - loss: 0.1524 - mean_squared_error: 0.1524 - mean_absolute_error: 0.3412
+33696/60000 [===============>..............] - ETA: 35s - loss: 0.1523 - mean_squared_error: 0.1523 - mean_absolute_error: 0.3412
+33760/60000 [===============>..............] - ETA: 35s - loss: 0.1523 - mean_squared_error: 0.1523 - mean_absolute_error: 0.3412
+33824/60000 [===============>..............] - ETA: 35s - loss: 0.1523 - mean_squared_error: 0.1523 - mean_absolute_error: 0.3411
+33888/60000 [===============>..............] - ETA: 35s - loss: 0.1522 - mean_squared_error: 0.1522 - mean_absolute_error: 0.3411
+33952/60000 [===============>..............] - ETA: 35s - loss: 0.1522 - mean_squared_error: 0.1522 - mean_absolute_error: 0.3411
+34016/60000 [================>.............] - ETA: 35s - loss: 0.1522 - mean_squared_error: 0.1522 - mean_absolute_error: 0.3410
+34080/60000 [================>.............] - ETA: 35s - loss: 0.1521 - mean_squared_error: 0.1521 - mean_absolute_error: 0.3409
+34144/60000 [================>.............] - ETA: 35s - loss: 0.1521 - mean_squared_error: 0.1521 - mean_absolute_error: 0.3410
+34208/60000 [================>.............] - ETA: 35s - loss: 0.1521 - mean_squared_error: 0.1521 - mean_absolute_error: 0.3410
+34272/60000 [================>.............] - ETA: 35s - loss: 0.1521 - mean_squared_error: 0.1521 - mean_absolute_error: 0.3409
+34336/60000 [================>.............] - ETA: 35s - loss: 0.1521 - mean_squared_error: 0.1521 - mean_absolute_error: 0.3409
+34400/60000 [================>.............] - ETA: 34s - loss: 0.1520 - mean_squared_error: 0.1520 - mean_absolute_error: 0.3409
+34464/60000 [================>.............] - ETA: 34s - loss: 0.1520 - mean_squared_error: 0.1520 - mean_absolute_error: 0.3409
+34528/60000 [================>.............] - ETA: 34s - loss: 0.1519 - mean_squared_error: 0.1519 - mean_absolute_error: 0.3408
+34592/60000 [================>.............] - ETA: 34s - loss: 0.1519 - mean_squared_error: 0.1519 - mean_absolute_error: 0.3408
+34656/60000 [================>.............] - ETA: 34s - loss: 0.1519 - mean_squared_error: 0.1519 - mean_absolute_error: 0.3408
+34720/60000 [================>.............] - ETA: 34s - loss: 0.1519 - mean_squared_error: 0.1519 - mean_absolute_error: 0.3408
+34784/60000 [================>.............] - ETA: 34s - loss: 0.1518 - mean_squared_error: 0.1518 - mean_absolute_error: 0.3408
+34848/60000 [================>.............] - ETA: 34s - loss: 0.1518 - mean_squared_error: 0.1518 - mean_absolute_error: 0.3407
+34912/60000 [================>.............] - ETA: 34s - loss: 0.1518 - mean_squared_error: 0.1518 - mean_absolute_error: 0.3408
+34976/60000 [================>.............] - ETA: 34s - loss: 0.1518 - mean_squared_error: 0.1518 - mean_absolute_error: 0.3408
+35040/60000 [================>.............] - ETA: 34s - loss: 0.1517 - mean_squared_error: 0.1517 - mean_absolute_error: 0.3407
+35104/60000 [================>.............] - ETA: 34s - loss: 0.1517 - mean_squared_error: 0.1517 - mean_absolute_error: 0.3407
+35168/60000 [================>.............] - ETA: 33s - loss: 0.1517 - mean_squared_error: 0.1517 - mean_absolute_error: 0.3407
+35232/60000 [================>.............] - ETA: 33s - loss: 0.1516 - mean_squared_error: 0.1516 - mean_absolute_error: 0.3406
+35296/60000 [================>.............] - ETA: 33s - loss: 0.1516 - mean_squared_error: 0.1516 - mean_absolute_error: 0.3406
+35360/60000 [================>.............] - ETA: 33s - loss: 0.1516 - mean_squared_error: 0.1516 - mean_absolute_error: 0.3406
+35424/60000 [================>.............] - ETA: 33s - loss: 0.1516 - mean_squared_error: 0.1516 - mean_absolute_error: 0.3406
+35488/60000 [================>.............] - ETA: 33s - loss: 0.1515 - mean_squared_error: 0.1515 - mean_absolute_error: 0.3406
+35552/60000 [================>.............] - ETA: 33s - loss: 0.1515 - mean_squared_error: 0.1515 - mean_absolute_error: 0.3405
+35616/60000 [================>.............] - ETA: 33s - loss: 0.1514 - mean_squared_error: 0.1514 - mean_absolute_error: 0.3405
+35680/60000 [================>.............] - ETA: 33s - loss: 0.1514 - mean_squared_error: 0.1514 - mean_absolute_error: 0.3404
+35744/60000 [================>.............] - ETA: 33s - loss: 0.1514 - mean_squared_error: 0.1514 - mean_absolute_error: 0.3404
+35808/60000 [================>.............] - ETA: 33s - loss: 0.1513 - mean_squared_error: 0.1513 - mean_absolute_error: 0.3403
+35872/60000 [================>.............] - ETA: 32s - loss: 0.1513 - mean_squared_error: 0.1513 - mean_absolute_error: 0.3403
+35936/60000 [================>.............] - ETA: 32s - loss: 0.1512 - mean_squared_error: 0.1512 - mean_absolute_error: 0.3402
+36000/60000 [=================>............] - ETA: 32s - loss: 0.1512 - mean_squared_error: 0.1512 - mean_absolute_error: 0.3402
+36064/60000 [=================>............] - ETA: 32s - loss: 0.1512 - mean_squared_error: 0.1512 - mean_absolute_error: 0.3402
+36128/60000 [=================>............] - ETA: 32s - loss: 0.1511 - mean_squared_error: 0.1511 - mean_absolute_error: 0.3402
+36192/60000 [=================>............] - ETA: 32s - loss: 0.1510 - mean_squared_error: 0.1510 - mean_absolute_error: 0.3401
+36256/60000 [=================>............] - ETA: 32s - loss: 0.1510 - mean_squared_error: 0.1510 - mean_absolute_error: 0.3400
+36320/60000 [=================>............] - ETA: 32s - loss: 0.1510 - mean_squared_error: 0.1510 - mean_absolute_error: 0.3400
+36384/60000 [=================>............] - ETA: 32s - loss: 0.1510 - mean_squared_error: 0.1510 - mean_absolute_error: 0.3400
+36448/60000 [=================>............] - ETA: 32s - loss: 0.1510 - mean_squared_error: 0.1510 - mean_absolute_error: 0.3401
+36512/60000 [=================>............] - ETA: 32s - loss: 0.1510 - mean_squared_error: 0.1510 - mean_absolute_error: 0.3400
+36576/60000 [=================>............] - ETA: 31s - loss: 0.1509 - mean_squared_error: 0.1509 - mean_absolute_error: 0.3399
+36640/60000 [=================>............] - ETA: 31s - loss: 0.1509 - mean_squared_error: 0.1509 - mean_absolute_error: 0.3400
+36704/60000 [=================>............] - ETA: 31s - loss: 0.1509 - mean_squared_error: 0.1509 - mean_absolute_error: 0.3399
+36768/60000 [=================>............] - ETA: 31s - loss: 0.1508 - mean_squared_error: 0.1508 - mean_absolute_error: 0.3399
+36832/60000 [=================>............] - ETA: 31s - loss: 0.1509 - mean_squared_error: 0.1509 - mean_absolute_error: 0.3399
+36896/60000 [=================>............] - ETA: 31s - loss: 0.1508 - mean_squared_error: 0.1508 - mean_absolute_error: 0.3399
+36960/60000 [=================>............] - ETA: 31s - loss: 0.1508 - mean_squared_error: 0.1508 - mean_absolute_error: 0.3399
+37024/60000 [=================>............] - ETA: 31s - loss: 0.1508 - mean_squared_error: 0.1508 - mean_absolute_error: 0.3399
+37088/60000 [=================>............] - ETA: 31s - loss: 0.1508 - mean_squared_error: 0.1508 - mean_absolute_error: 0.3399
+37152/60000 [=================>............] - ETA: 31s - loss: 0.1507 - mean_squared_error: 0.1507 - mean_absolute_error: 0.3399
+37216/60000 [=================>............] - ETA: 31s - loss: 0.1507 - mean_squared_error: 0.1507 - mean_absolute_error: 0.3398
+37280/60000 [=================>............] - ETA: 31s - loss: 0.1507 - mean_squared_error: 0.1507 - mean_absolute_error: 0.3398
+37344/60000 [=================>............] - ETA: 30s - loss: 0.1506 - mean_squared_error: 0.1506 - mean_absolute_error: 0.3398
+37408/60000 [=================>............] - ETA: 30s - loss: 0.1507 - mean_squared_error: 0.1507 - mean_absolute_error: 0.3398
+37472/60000 [=================>............] - ETA: 30s - loss: 0.1506 - mean_squared_error: 0.1506 - mean_absolute_error: 0.3398
+37536/60000 [=================>............] - ETA: 30s - loss: 0.1506 - mean_squared_error: 0.1506 - mean_absolute_error: 0.3398
+37600/60000 [=================>............] - ETA: 30s - loss: 0.1506 - mean_squared_error: 0.1506 - mean_absolute_error: 0.3398
+37664/60000 [=================>............] - ETA: 30s - loss: 0.1505 - mean_squared_error: 0.1505 - mean_absolute_error: 0.3397
+37728/60000 [=================>............] - ETA: 30s - loss: 0.1505 - mean_squared_error: 0.1505 - mean_absolute_error: 0.3397
+37792/60000 [=================>............] - ETA: 30s - loss: 0.1505 - mean_squared_error: 0.1505 - mean_absolute_error: 0.3397
+37856/60000 [=================>............] - ETA: 30s - loss: 0.1505 - mean_squared_error: 0.1505 - mean_absolute_error: 0.3397
+37920/60000 [=================>............] - ETA: 30s - loss: 0.1505 - mean_squared_error: 0.1505 - mean_absolute_error: 0.3397
+37984/60000 [=================>............] - ETA: 30s - loss: 0.1505 - mean_squared_error: 0.1505 - mean_absolute_error: 0.3398
+38048/60000 [==================>...........] - ETA: 29s - loss: 0.1505 - mean_squared_error: 0.1505 - mean_absolute_error: 0.3398
+38112/60000 [==================>...........] - ETA: 29s - loss: 0.1505 - mean_squared_error: 0.1505 - mean_absolute_error: 0.3398
+38176/60000 [==================>...........] - ETA: 29s - loss: 0.1505 - mean_squared_error: 0.1505 - mean_absolute_error: 0.3399
+38240/60000 [==================>...........] - ETA: 29s - loss: 0.1505 - mean_squared_error: 0.1505 - mean_absolute_error: 0.3398
+38304/60000 [==================>...........] - ETA: 29s - loss: 0.1505 - mean_squared_error: 0.1505 - mean_absolute_error: 0.3398
+38368/60000 [==================>...........] - ETA: 29s - loss: 0.1505 - mean_squared_error: 0.1505 - mean_absolute_error: 0.3398
+38432/60000 [==================>...........] - ETA: 29s - loss: 0.1504 - mean_squared_error: 0.1504 - mean_absolute_error: 0.3398
+38496/60000 [==================>...........] - ETA: 29s - loss: 0.1504 - mean_squared_error: 0.1504 - mean_absolute_error: 0.3398
+38560/60000 [==================>...........] - ETA: 29s - loss: 0.1504 - mean_squared_error: 0.1504 - mean_absolute_error: 0.3397
+38624/60000 [==================>...........] - ETA: 29s - loss: 0.1503 - mean_squared_error: 0.1503 - mean_absolute_error: 0.3397
+38688/60000 [==================>...........] - ETA: 29s - loss: 0.1503 - mean_squared_error: 0.1503 - mean_absolute_error: 0.3397
+38752/60000 [==================>...........] - ETA: 29s - loss: 0.1503 - mean_squared_error: 0.1503 - mean_absolute_error: 0.3396
+38816/60000 [==================>...........] - ETA: 28s - loss: 0.1503 - mean_squared_error: 0.1503 - mean_absolute_error: 0.3396
+38880/60000 [==================>...........] - ETA: 28s - loss: 0.1502 - mean_squared_error: 0.1502 - mean_absolute_error: 0.3395
+38944/60000 [==================>...........] - ETA: 28s - loss: 0.1501 - mean_squared_error: 0.1501 - mean_absolute_error: 0.3395
+39008/60000 [==================>...........] - ETA: 28s - loss: 0.1501 - mean_squared_error: 0.1501 - mean_absolute_error: 0.3394
+39072/60000 [==================>...........] - ETA: 28s - loss: 0.1501 - mean_squared_error: 0.1501 - mean_absolute_error: 0.3394
+39136/60000 [==================>...........] - ETA: 28s - loss: 0.1501 - mean_squared_error: 0.1501 - mean_absolute_error: 0.3394
+39200/60000 [==================>...........] - ETA: 28s - loss: 0.1500 - mean_squared_error: 0.1500 - mean_absolute_error: 0.3394
+39264/60000 [==================>...........] - ETA: 28s - loss: 0.1500 - mean_squared_error: 0.1500 - mean_absolute_error: 0.3394
+39328/60000 [==================>...........] - ETA: 28s - loss: 0.1500 - mean_squared_error: 0.1500 - mean_absolute_error: 0.3393
+39392/60000 [==================>...........] - ETA: 28s - loss: 0.1500 - mean_squared_error: 0.1500 - mean_absolute_error: 0.3393
+39456/60000 [==================>...........] - ETA: 28s - loss: 0.1500 - mean_squared_error: 0.1500 - mean_absolute_error: 0.3394
+39520/60000 [==================>...........] - ETA: 27s - loss: 0.1500 - mean_squared_error: 0.1500 - mean_absolute_error: 0.3394
+39584/60000 [==================>...........] - ETA: 27s - loss: 0.1500 - mean_squared_error: 0.1500 - mean_absolute_error: 0.3394
+39648/60000 [==================>...........] - ETA: 27s - loss: 0.1500 - mean_squared_error: 0.1500 - mean_absolute_error: 0.3394
+39712/60000 [==================>...........] - ETA: 27s - loss: 0.1500 - mean_squared_error: 0.1500 - mean_absolute_error: 0.3394
+39776/60000 [==================>...........] - ETA: 27s - loss: 0.1500 - mean_squared_error: 0.1500 - mean_absolute_error: 0.3395
+39840/60000 [==================>...........] - ETA: 27s - loss: 0.1499 - mean_squared_error: 0.1499 - mean_absolute_error: 0.3394
+39904/60000 [==================>...........] - ETA: 27s - loss: 0.1499 - mean_squared_error: 0.1499 - mean_absolute_error: 0.3393
+39968/60000 [==================>...........] - ETA: 27s - loss: 0.1499 - mean_squared_error: 0.1499 - mean_absolute_error: 0.3393
+40032/60000 [===================>..........] - ETA: 27s - loss: 0.1499 - mean_squared_error: 0.1499 - mean_absolute_error: 0.3393
+40096/60000 [===================>..........] - ETA: 27s - loss: 0.1499 - mean_squared_error: 0.1499 - mean_absolute_error: 0.3393
+40160/60000 [===================>..........] - ETA: 27s - loss: 0.1499 - mean_squared_error: 0.1499 - mean_absolute_error: 0.3394
+40224/60000 [===================>..........] - ETA: 27s - loss: 0.1498 - mean_squared_error: 0.1498 - mean_absolute_error: 0.3393
+40288/60000 [===================>..........] - ETA: 26s - loss: 0.1499 - mean_squared_error: 0.1499 - mean_absolute_error: 0.3393
+40352/60000 [===================>..........] - ETA: 26s - loss: 0.1498 - mean_squared_error: 0.1498 - mean_absolute_error: 0.3393
+40416/60000 [===================>..........] - ETA: 26s - loss: 0.1499 - mean_squared_error: 0.1499 - mean_absolute_error: 0.3394
+40480/60000 [===================>..........] - ETA: 26s - loss: 0.1499 - mean_squared_error: 0.1499 - mean_absolute_error: 0.3394
+40544/60000 [===================>..........] - ETA: 26s - loss: 0.1498 - mean_squared_error: 0.1498 - mean_absolute_error: 0.3393
+40608/60000 [===================>..........] - ETA: 26s - loss: 0.1498 - mean_squared_error: 0.1498 - mean_absolute_error: 0.3393
+40672/60000 [===================>..........] - ETA: 26s - loss: 0.1498 - mean_squared_error: 0.1498 - mean_absolute_error: 0.3393
+40736/60000 [===================>..........] - ETA: 26s - loss: 0.1498 - mean_squared_error: 0.1498 - mean_absolute_error: 0.3393
+40800/60000 [===================>..........] - ETA: 26s - loss: 0.1498 - mean_squared_error: 0.1498 - mean_absolute_error: 0.3393
+40864/60000 [===================>..........] - ETA: 26s - loss: 0.1497 - mean_squared_error: 0.1497 - mean_absolute_error: 0.3392
+40928/60000 [===================>..........] - ETA: 26s - loss: 0.1497 - mean_squared_error: 0.1497 - mean_absolute_error: 0.3392
+40992/60000 [===================>..........] - ETA: 25s - loss: 0.1497 - mean_squared_error: 0.1497 - mean_absolute_error: 0.3392
+41056/60000 [===================>..........] - ETA: 25s - loss: 0.1496 - mean_squared_error: 0.1496 - mean_absolute_error: 0.3391
+41120/60000 [===================>..........] - ETA: 25s - loss: 0.1496 - mean_squared_error: 0.1496 - mean_absolute_error: 0.3391
+41184/60000 [===================>..........] - ETA: 25s - loss: 0.1496 - mean_squared_error: 0.1496 - mean_absolute_error: 0.3391
+41248/60000 [===================>..........] - ETA: 25s - loss: 0.1495 - mean_squared_error: 0.1495 - mean_absolute_error: 0.3391
+41312/60000 [===================>..........] - ETA: 25s - loss: 0.1495 - mean_squared_error: 0.1495 - mean_absolute_error: 0.3390
+41376/60000 [===================>..........] - ETA: 25s - loss: 0.1495 - mean_squared_error: 0.1495 - mean_absolute_error: 0.3390
+41440/60000 [===================>..........] - ETA: 25s - loss: 0.1495 - mean_squared_error: 0.1495 - mean_absolute_error: 0.3390
+41504/60000 [===================>..........] - ETA: 25s - loss: 0.1494 - mean_squared_error: 0.1494 - mean_absolute_error: 0.3389
+41568/60000 [===================>..........] - ETA: 25s - loss: 0.1494 - mean_squared_error: 0.1494 - mean_absolute_error: 0.3389
+41632/60000 [===================>..........] - ETA: 25s - loss: 0.1493 - mean_squared_error: 0.1493 - mean_absolute_error: 0.3388
+41696/60000 [===================>..........] - ETA: 24s - loss: 0.1493 - mean_squared_error: 0.1493 - mean_absolute_error: 0.3388
+41760/60000 [===================>..........] - ETA: 24s - loss: 0.1494 - mean_squared_error: 0.1494 - mean_absolute_error: 0.3389
+41824/60000 [===================>..........] - ETA: 24s - loss: 0.1493 - mean_squared_error: 0.1493 - mean_absolute_error: 0.3389
+41888/60000 [===================>..........] - ETA: 24s - loss: 0.1493 - mean_squared_error: 0.1493 - mean_absolute_error: 0.3389
+41952/60000 [===================>..........] - ETA: 24s - loss: 0.1493 - mean_squared_error: 0.1493 - mean_absolute_error: 0.3388
+42016/60000 [====================>.........] - ETA: 24s - loss: 0.1492 - mean_squared_error: 0.1492 - mean_absolute_error: 0.3388
+42080/60000 [====================>.........] - ETA: 24s - loss: 0.1492 - mean_squared_error: 0.1492 - mean_absolute_error: 0.3387
+42144/60000 [====================>.........] - ETA: 24s - loss: 0.1492 - mean_squared_error: 0.1492 - mean_absolute_error: 0.3387
+42208/60000 [====================>.........] - ETA: 24s - loss: 0.1492 - mean_squared_error: 0.1492 - mean_absolute_error: 0.3387
+42272/60000 [====================>.........] - ETA: 24s - loss: 0.1492 - mean_squared_error: 0.1492 - mean_absolute_error: 0.3387
+42336/60000 [====================>.........] - ETA: 24s - loss: 0.1492 - mean_squared_error: 0.1492 - mean_absolute_error: 0.3388
+42400/60000 [====================>.........] - ETA: 24s - loss: 0.1492 - mean_squared_error: 0.1492 - mean_absolute_error: 0.3388
+42464/60000 [====================>.........] - ETA: 23s - loss: 0.1492 - mean_squared_error: 0.1492 - mean_absolute_error: 0.3387
+42528/60000 [====================>.........] - ETA: 23s - loss: 0.1491 - mean_squared_error: 0.1491 - mean_absolute_error: 0.3387
+42592/60000 [====================>.........] - ETA: 23s - loss: 0.1492 - mean_squared_error: 0.1492 - mean_absolute_error: 0.3388
+42656/60000 [====================>.........] - ETA: 23s - loss: 0.1492 - mean_squared_error: 0.1492 - mean_absolute_error: 0.3388
+42720/60000 [====================>.........] - ETA: 23s - loss: 0.1491 - mean_squared_error: 0.1491 - mean_absolute_error: 0.3388
+42784/60000 [====================>.........] - ETA: 23s - loss: 0.1492 - mean_squared_error: 0.1492 - mean_absolute_error: 0.3388
+42848/60000 [====================>.........] - ETA: 23s - loss: 0.1491 - mean_squared_error: 0.1491 - mean_absolute_error: 0.3387
+42912/60000 [====================>.........] - ETA: 23s - loss: 0.1491 - mean_squared_error: 0.1491 - mean_absolute_error: 0.3387
+42976/60000 [====================>.........] - ETA: 23s - loss: 0.1491 - mean_squared_error: 0.1491 - mean_absolute_error: 0.3387
+43040/60000 [====================>.........] - ETA: 23s - loss: 0.1491 - mean_squared_error: 0.1491 - mean_absolute_error: 0.3387
+43104/60000 [====================>.........] - ETA: 23s - loss: 0.1490 - mean_squared_error: 0.1490 - mean_absolute_error: 0.3387
+43168/60000 [====================>.........] - ETA: 22s - loss: 0.1490 - mean_squared_error: 0.1490 - mean_absolute_error: 0.3387
+43232/60000 [====================>.........] - ETA: 22s - loss: 0.1491 - mean_squared_error: 0.1491 - mean_absolute_error: 0.3387
+43296/60000 [====================>.........] - ETA: 22s - loss: 0.1490 - mean_squared_error: 0.1490 - mean_absolute_error: 0.3387
+43360/60000 [====================>.........] - ETA: 22s - loss: 0.1490 - mean_squared_error: 0.1490 - mean_absolute_error: 0.3387
+43424/60000 [====================>.........] - ETA: 22s - loss: 0.1490 - mean_squared_error: 0.1490 - mean_absolute_error: 0.3387
+43488/60000 [====================>.........] - ETA: 22s - loss: 0.1490 - mean_squared_error: 0.1490 - mean_absolute_error: 0.3387
+43552/60000 [====================>.........] - ETA: 22s - loss: 0.1490 - mean_squared_error: 0.1490 - mean_absolute_error: 0.3387
+43616/60000 [====================>.........] - ETA: 22s - loss: 0.1490 - mean_squared_error: 0.1490 - mean_absolute_error: 0.3387
+43680/60000 [====================>.........] - ETA: 22s - loss: 0.1489 - mean_squared_error: 0.1489 - mean_absolute_error: 0.3386
+43744/60000 [====================>.........] - ETA: 22s - loss: 0.1489 - mean_squared_error: 0.1489 - mean_absolute_error: 0.3386
+43808/60000 [====================>.........] - ETA: 22s - loss: 0.1489 - mean_squared_error: 0.1489 - mean_absolute_error: 0.3385
+43872/60000 [====================>.........] - ETA: 22s - loss: 0.1489 - mean_squared_error: 0.1489 - mean_absolute_error: 0.3386
+43936/60000 [====================>.........] - ETA: 21s - loss: 0.1488 - mean_squared_error: 0.1488 - mean_absolute_error: 0.3385
+44000/60000 [=====================>........] - ETA: 21s - loss: 0.1488 - mean_squared_error: 0.1488 - mean_absolute_error: 0.3385
+44064/60000 [=====================>........] - ETA: 21s - loss: 0.1488 - mean_squared_error: 0.1488 - mean_absolute_error: 0.3385
+44128/60000 [=====================>........] - ETA: 21s - loss: 0.1488 - mean_squared_error: 0.1488 - mean_absolute_error: 0.3385
+44192/60000 [=====================>........] - ETA: 21s - loss: 0.1488 - mean_squared_error: 0.1488 - mean_absolute_error: 0.3385
+44256/60000 [=====================>........] - ETA: 21s - loss: 0.1488 - mean_squared_error: 0.1488 - mean_absolute_error: 0.3385
+44320/60000 [=====================>........] - ETA: 21s - loss: 0.1487 - mean_squared_error: 0.1487 - mean_absolute_error: 0.3385
+44384/60000 [=====================>........] - ETA: 21s - loss: 0.1488 - mean_squared_error: 0.1488 - mean_absolute_error: 0.3385
+44448/60000 [=====================>........] - ETA: 21s - loss: 0.1487 - mean_squared_error: 0.1487 - mean_absolute_error: 0.3384
+44512/60000 [=====================>........] - ETA: 21s - loss: 0.1487 - mean_squared_error: 0.1487 - mean_absolute_error: 0.3385
+44576/60000 [=====================>........] - ETA: 21s - loss: 0.1487 - mean_squared_error: 0.1487 - mean_absolute_error: 0.3385
+44640/60000 [=====================>........] - ETA: 20s - loss: 0.1487 - mean_squared_error: 0.1487 - mean_absolute_error: 0.3385
+44704/60000 [=====================>........] - ETA: 20s - loss: 0.1487 - mean_squared_error: 0.1487 - mean_absolute_error: 0.3385
+44768/60000 [=====================>........] - ETA: 20s - loss: 0.1487 - mean_squared_error: 0.1487 - mean_absolute_error: 0.3385
+44832/60000 [=====================>........] - ETA: 20s - loss: 0.1486 - mean_squared_error: 0.1486 - mean_absolute_error: 0.3384
+44896/60000 [=====================>........] - ETA: 20s - loss: 0.1486 - mean_squared_error: 0.1486 - mean_absolute_error: 0.3384
+44960/60000 [=====================>........] - ETA: 20s - loss: 0.1486 - mean_squared_error: 0.1486 - mean_absolute_error: 0.3384
+45024/60000 [=====================>........] - ETA: 20s - loss: 0.1486 - mean_squared_error: 0.1486 - mean_absolute_error: 0.3384
+45088/60000 [=====================>........] - ETA: 20s - loss: 0.1486 - mean_squared_error: 0.1486 - mean_absolute_error: 0.3384
+45152/60000 [=====================>........] - ETA: 20s - loss: 0.1485 - mean_squared_error: 0.1485 - mean_absolute_error: 0.3383
+45216/60000 [=====================>........] - ETA: 20s - loss: 0.1485 - mean_squared_error: 0.1485 - mean_absolute_error: 0.3383
+45280/60000 [=====================>........] - ETA: 20s - loss: 0.1485 - mean_squared_error: 0.1485 - mean_absolute_error: 0.3383
+45344/60000 [=====================>........] - ETA: 20s - loss: 0.1485 - mean_squared_error: 0.1485 - mean_absolute_error: 0.3383
+45408/60000 [=====================>........] - ETA: 19s - loss: 0.1484 - mean_squared_error: 0.1484 - mean_absolute_error: 0.3383
+45472/60000 [=====================>........] - ETA: 19s - loss: 0.1484 - mean_squared_error: 0.1484 - mean_absolute_error: 0.3383
+45536/60000 [=====================>........] - ETA: 19s - loss: 0.1484 - mean_squared_error: 0.1484 - mean_absolute_error: 0.3383
+45600/60000 [=====================>........] - ETA: 19s - loss: 0.1484 - mean_squared_error: 0.1484 - mean_absolute_error: 0.3383
+45664/60000 [=====================>........] - ETA: 19s - loss: 0.1484 - mean_squared_error: 0.1484 - mean_absolute_error: 0.3383
+45728/60000 [=====================>........] - ETA: 19s - loss: 0.1484 - mean_squared_error: 0.1484 - mean_absolute_error: 0.3382
+45792/60000 [=====================>........] - ETA: 19s - loss: 0.1483 - mean_squared_error: 0.1483 - mean_absolute_error: 0.3382
+45856/60000 [=====================>........] - ETA: 19s - loss: 0.1483 - mean_squared_error: 0.1483 - mean_absolute_error: 0.3382
+45920/60000 [=====================>........] - ETA: 19s - loss: 0.1483 - mean_squared_error: 0.1483 - mean_absolute_error: 0.3382
+45984/60000 [=====================>........] - ETA: 19s - loss: 0.1483 - mean_squared_error: 0.1483 - mean_absolute_error: 0.3382
+46048/60000 [======================>.......] - ETA: 19s - loss: 0.1483 - mean_squared_error: 0.1483 - mean_absolute_error: 0.3382
+46112/60000 [======================>.......] - ETA: 18s - loss: 0.1483 - mean_squared_error: 0.1483 - mean_absolute_error: 0.3382
+46176/60000 [======================>.......] - ETA: 18s - loss: 0.1483 - mean_squared_error: 0.1483 - mean_absolute_error: 0.3382
+46240/60000 [======================>.......] - ETA: 18s - loss: 0.1483 - mean_squared_error: 0.1483 - mean_absolute_error: 0.3382
+46304/60000 [======================>.......] - ETA: 18s - loss: 0.1483 - mean_squared_error: 0.1483 - mean_absolute_error: 0.3382
+46368/60000 [======================>.......] - ETA: 18s - loss: 0.1483 - mean_squared_error: 0.1483 - mean_absolute_error: 0.3382
+46432/60000 [======================>.......] - ETA: 18s - loss: 0.1483 - mean_squared_error: 0.1483 - mean_absolute_error: 0.3382
+46496/60000 [======================>.......] - ETA: 18s - loss: 0.1483 - mean_squared_error: 0.1483 - mean_absolute_error: 0.3382
+46560/60000 [======================>.......] - ETA: 18s - loss: 0.1482 - mean_squared_error: 0.1482 - mean_absolute_error: 0.3382
+46624/60000 [======================>.......] - ETA: 18s - loss: 0.1483 - mean_squared_error: 0.1483 - mean_absolute_error: 0.3382
+46688/60000 [======================>.......] - ETA: 18s - loss: 0.1482 - mean_squared_error: 0.1482 - mean_absolute_error: 0.3382
+46752/60000 [======================>.......] - ETA: 18s - loss: 0.1482 - mean_squared_error: 0.1482 - mean_absolute_error: 0.3381
+46816/60000 [======================>.......] - ETA: 17s - loss: 0.1482 - mean_squared_error: 0.1482 - mean_absolute_error: 0.3381
+46880/60000 [======================>.......] - ETA: 17s - loss: 0.1481 - mean_squared_error: 0.1481 - mean_absolute_error: 0.3381
+46944/60000 [======================>.......] - ETA: 17s - loss: 0.1482 - mean_squared_error: 0.1482 - mean_absolute_error: 0.3381
+47008/60000 [======================>.......] - ETA: 17s - loss: 0.1481 - mean_squared_error: 0.1481 - mean_absolute_error: 0.3381
+47072/60000 [======================>.......] - ETA: 17s - loss: 0.1481 - mean_squared_error: 0.1481 - mean_absolute_error: 0.3381
+47136/60000 [======================>.......] - ETA: 17s - loss: 0.1481 - mean_squared_error: 0.1481 - mean_absolute_error: 0.3381
+47200/60000 [======================>.......] - ETA: 17s - loss: 0.1481 - mean_squared_error: 0.1481 - mean_absolute_error: 0.3380
+47264/60000 [======================>.......] - ETA: 17s - loss: 0.1480 - mean_squared_error: 0.1480 - mean_absolute_error: 0.3380
+47328/60000 [======================>.......] - ETA: 17s - loss: 0.1480 - mean_squared_error: 0.1480 - mean_absolute_error: 0.3380
+47392/60000 [======================>.......] - ETA: 17s - loss: 0.1480 - mean_squared_error: 0.1480 - mean_absolute_error: 0.3379
+47456/60000 [======================>.......] - ETA: 17s - loss: 0.1480 - mean_squared_error: 0.1480 - mean_absolute_error: 0.3380
+47520/60000 [======================>.......] - ETA: 17s - loss: 0.1480 - mean_squared_error: 0.1480 - mean_absolute_error: 0.3380
+47584/60000 [======================>.......] - ETA: 16s - loss: 0.1480 - mean_squared_error: 0.1480 - mean_absolute_error: 0.3380
+47648/60000 [======================>.......] - ETA: 16s - loss: 0.1480 - mean_squared_error: 0.1480 - mean_absolute_error: 0.3380
+47712/60000 [======================>.......] - ETA: 16s - loss: 0.1479 - mean_squared_error: 0.1479 - mean_absolute_error: 0.3379
+47776/60000 [======================>.......] - ETA: 16s - loss: 0.1479 - mean_squared_error: 0.1479 - mean_absolute_error: 0.3379
+47840/60000 [======================>.......] - ETA: 16s - loss: 0.1479 - mean_squared_error: 0.1479 - mean_absolute_error: 0.3379
+47904/60000 [======================>.......] - ETA: 16s - loss: 0.1479 - mean_squared_error: 0.1479 - mean_absolute_error: 0.3379
+47968/60000 [======================>.......] - ETA: 16s - loss: 0.1479 - mean_squared_error: 0.1479 - mean_absolute_error: 0.3379
+48032/60000 [=======================>......] - ETA: 16s - loss: 0.1478 - mean_squared_error: 0.1478 - mean_absolute_error: 0.3378
+48096/60000 [=======================>......] - ETA: 16s - loss: 0.1478 - mean_squared_error: 0.1478 - mean_absolute_error: 0.3378
+48160/60000 [=======================>......] - ETA: 16s - loss: 0.1478 - mean_squared_error: 0.1478 - mean_absolute_error: 0.3377
+48224/60000 [=======================>......] - ETA: 16s - loss: 0.1477 - mean_squared_error: 0.1477 - mean_absolute_error: 0.3377
+48288/60000 [=======================>......] - ETA: 15s - loss: 0.1478 - mean_squared_error: 0.1478 - mean_absolute_error: 0.3377
+48352/60000 [=======================>......] - ETA: 15s - loss: 0.1478 - mean_squared_error: 0.1478 - mean_absolute_error: 0.3378
+48416/60000 [=======================>......] - ETA: 15s - loss: 0.1478 - mean_squared_error: 0.1478 - mean_absolute_error: 0.3378
+48480/60000 [=======================>......] - ETA: 15s - loss: 0.1477 - mean_squared_error: 0.1477 - mean_absolute_error: 0.3378
+48544/60000 [=======================>......] - ETA: 15s - loss: 0.1477 - mean_squared_error: 0.1477 - mean_absolute_error: 0.3377
+48608/60000 [=======================>......] - ETA: 15s - loss: 0.1477 - mean_squared_error: 0.1477 - mean_absolute_error: 0.3377
+48672/60000 [=======================>......] - ETA: 15s - loss: 0.1477 - mean_squared_error: 0.1477 - mean_absolute_error: 0.3377
+48736/60000 [=======================>......] - ETA: 15s - loss: 0.1477 - mean_squared_error: 0.1477 - mean_absolute_error: 0.3377
+48800/60000 [=======================>......] - ETA: 15s - loss: 0.1477 - mean_squared_error: 0.1477 - mean_absolute_error: 0.3377
+48864/60000 [=======================>......] - ETA: 15s - loss: 0.1477 - mean_squared_error: 0.1477 - mean_absolute_error: 0.3377
+48928/60000 [=======================>......] - ETA: 15s - loss: 0.1477 - mean_squared_error: 0.1477 - mean_absolute_error: 0.3377
+48992/60000 [=======================>......] - ETA: 15s - loss: 0.1477 - mean_squared_error: 0.1477 - mean_absolute_error: 0.3377
+49056/60000 [=======================>......] - ETA: 14s - loss: 0.1476 - mean_squared_error: 0.1476 - mean_absolute_error: 0.3377
+49120/60000 [=======================>......] - ETA: 14s - loss: 0.1476 - mean_squared_error: 0.1476 - mean_absolute_error: 0.3377
+49184/60000 [=======================>......] - ETA: 14s - loss: 0.1476 - mean_squared_error: 0.1476 - mean_absolute_error: 0.3377
+49248/60000 [=======================>......] - ETA: 14s - loss: 0.1476 - mean_squared_error: 0.1476 - mean_absolute_error: 0.3376
+49312/60000 [=======================>......] - ETA: 14s - loss: 0.1475 - mean_squared_error: 0.1475 - mean_absolute_error: 0.3376
+49376/60000 [=======================>......] - ETA: 14s - loss: 0.1475 - mean_squared_error: 0.1475 - mean_absolute_error: 0.3376
+49440/60000 [=======================>......] - ETA: 14s - loss: 0.1475 - mean_squared_error: 0.1475 - mean_absolute_error: 0.3375
+49504/60000 [=======================>......] - ETA: 14s - loss: 0.1475 - mean_squared_error: 0.1475 - mean_absolute_error: 0.3375
+49568/60000 [=======================>......] - ETA: 14s - loss: 0.1474 - mean_squared_error: 0.1474 - mean_absolute_error: 0.3375
+49632/60000 [=======================>......] - ETA: 14s - loss: 0.1474 - mean_squared_error: 0.1474 - mean_absolute_error: 0.3374
+49696/60000 [=======================>......] - ETA: 14s - loss: 0.1474 - mean_squared_error: 0.1474 - mean_absolute_error: 0.3374
+49760/60000 [=======================>......] - ETA: 13s - loss: 0.1474 - mean_squared_error: 0.1474 - mean_absolute_error: 0.3374
+49824/60000 [=======================>......] - ETA: 13s - loss: 0.1474 - mean_squared_error: 0.1474 - mean_absolute_error: 0.3374
+49888/60000 [=======================>......] - ETA: 13s - loss: 0.1473 - mean_squared_error: 0.1473 - mean_absolute_error: 0.3374
+49952/60000 [=======================>......] - ETA: 13s - loss: 0.1473 - mean_squared_error: 0.1473 - mean_absolute_error: 0.3374
+50016/60000 [========================>.....] - ETA: 13s - loss: 0.1473 - mean_squared_error: 0.1473 - mean_absolute_error: 0.3374
+50080/60000 [========================>.....] - ETA: 13s - loss: 0.1474 - mean_squared_error: 0.1474 - mean_absolute_error: 0.3375
+50144/60000 [========================>.....] - ETA: 13s - loss: 0.1473 - mean_squared_error: 0.1473 - mean_absolute_error: 0.3374
+50208/60000 [========================>.....] - ETA: 13s - loss: 0.1473 - mean_squared_error: 0.1473 - mean_absolute_error: 0.3375
+50272/60000 [========================>.....] - ETA: 13s - loss: 0.1473 - mean_squared_error: 0.1473 - mean_absolute_error: 0.3375
+50336/60000 [========================>.....] - ETA: 13s - loss: 0.1473 - mean_squared_error: 0.1473 - mean_absolute_error: 0.3375
+50400/60000 [========================>.....] - ETA: 13s - loss: 0.1473 - mean_squared_error: 0.1473 - mean_absolute_error: 0.3375
+50464/60000 [========================>.....] - ETA: 13s - loss: 0.1473 - mean_squared_error: 0.1473 - mean_absolute_error: 0.3375
+50528/60000 [========================>.....] - ETA: 12s - loss: 0.1473 - mean_squared_error: 0.1473 - mean_absolute_error: 0.3374
+50592/60000 [========================>.....] - ETA: 12s - loss: 0.1473 - mean_squared_error: 0.1473 - mean_absolute_error: 0.3374
+50656/60000 [========================>.....] - ETA: 12s - loss: 0.1472 - mean_squared_error: 0.1472 - mean_absolute_error: 0.3374
+50720/60000 [========================>.....] - ETA: 12s - loss: 0.1472 - mean_squared_error: 0.1472 - mean_absolute_error: 0.3373
+50784/60000 [========================>.....] - ETA: 12s - loss: 0.1472 - mean_squared_error: 0.1472 - mean_absolute_error: 0.3374
+50848/60000 [========================>.....] - ETA: 12s - loss: 0.1472 - mean_squared_error: 0.1472 - mean_absolute_error: 0.3373
+50912/60000 [========================>.....] - ETA: 12s - loss: 0.1471 - mean_squared_error: 0.1471 - mean_absolute_error: 0.3373
+50976/60000 [========================>.....] - ETA: 12s - loss: 0.1471 - mean_squared_error: 0.1471 - mean_absolute_error: 0.3373
+51040/60000 [========================>.....] - ETA: 12s - loss: 0.1471 - mean_squared_error: 0.1471 - mean_absolute_error: 0.3373
+51104/60000 [========================>.....] - ETA: 12s - loss: 0.1471 - mean_squared_error: 0.1471 - mean_absolute_error: 0.3373
+51168/60000 [========================>.....] - ETA: 12s - loss: 0.1471 - mean_squared_error: 0.1471 - mean_absolute_error: 0.3373
+51232/60000 [========================>.....] - ETA: 11s - loss: 0.1471 - mean_squared_error: 0.1471 - mean_absolute_error: 0.3373
+51296/60000 [========================>.....] - ETA: 11s - loss: 0.1471 - mean_squared_error: 0.1471 - mean_absolute_error: 0.3373
+51360/60000 [========================>.....] - ETA: 11s - loss: 0.1471 - mean_squared_error: 0.1471 - mean_absolute_error: 0.3373
+51424/60000 [========================>.....] - ETA: 11s - loss: 0.1471 - mean_squared_error: 0.1471 - mean_absolute_error: 0.3373
+51488/60000 [========================>.....] - ETA: 11s - loss: 0.1471 - mean_squared_error: 0.1471 - mean_absolute_error: 0.3373
+51552/60000 [========================>.....] - ETA: 11s - loss: 0.1471 - mean_squared_error: 0.1471 - mean_absolute_error: 0.3373
+51616/60000 [========================>.....] - ETA: 11s - loss: 0.1471 - mean_squared_error: 0.1471 - mean_absolute_error: 0.3373
+51680/60000 [========================>.....] - ETA: 11s - loss: 0.1470 - mean_squared_error: 0.1470 - mean_absolute_error: 0.3372
+51744/60000 [========================>.....] - ETA: 11s - loss: 0.1470 - mean_squared_error: 0.1470 - mean_absolute_error: 0.3372
+51808/60000 [========================>.....] - ETA: 11s - loss: 0.1470 - mean_squared_error: 0.1470 - mean_absolute_error: 0.3372
+51872/60000 [========================>.....] - ETA: 11s - loss: 0.1470 - mean_squared_error: 0.1470 - mean_absolute_error: 0.3372
+51936/60000 [========================>.....] - ETA: 11s - loss: 0.1470 - mean_squared_error: 0.1470 - mean_absolute_error: 0.3372
+52000/60000 [=========================>....] - ETA: 10s - loss: 0.1470 - mean_squared_error: 0.1470 - mean_absolute_error: 0.3372
+52064/60000 [=========================>....] - ETA: 10s - loss: 0.1470 - mean_squared_error: 0.1470 - mean_absolute_error: 0.3371
+52128/60000 [=========================>....] - ETA: 10s - loss: 0.1470 - mean_squared_error: 0.1470 - mean_absolute_error: 0.3372
+52192/60000 [=========================>....] - ETA: 10s - loss: 0.1470 - mean_squared_error: 0.1470 - mean_absolute_error: 0.3372
+52256/60000 [=========================>....] - ETA: 10s - loss: 0.1469 - mean_squared_error: 0.1469 - mean_absolute_error: 0.3372
+52320/60000 [=========================>....] - ETA: 10s - loss: 0.1469 - mean_squared_error: 0.1469 - mean_absolute_error: 0.3372
+52384/60000 [=========================>....] - ETA: 10s - loss: 0.1469 - mean_squared_error: 0.1469 - mean_absolute_error: 0.3372
+52448/60000 [=========================>....] - ETA: 10s - loss: 0.1469 - mean_squared_error: 0.1469 - mean_absolute_error: 0.3371
+52512/60000 [=========================>....] - ETA: 10s - loss: 0.1469 - mean_squared_error: 0.1469 - mean_absolute_error: 0.3371
+52576/60000 [=========================>....] - ETA: 10s - loss: 0.1468 - mean_squared_error: 0.1468 - mean_absolute_error: 0.3371
+52640/60000 [=========================>....] - ETA: 10s - loss: 0.1468 - mean_squared_error: 0.1468 - mean_absolute_error: 0.3370
+52704/60000 [=========================>....] - ETA: 9s - loss: 0.1468 - mean_squared_error: 0.1468 - mean_absolute_error: 0.3370 
+52768/60000 [=========================>....] - ETA: 9s - loss: 0.1468 - mean_squared_error: 0.1468 - mean_absolute_error: 0.3370
+52832/60000 [=========================>....] - ETA: 9s - loss: 0.1468 - mean_squared_error: 0.1468 - mean_absolute_error: 0.3370
+52896/60000 [=========================>....] - ETA: 9s - loss: 0.1467 - mean_squared_error: 0.1467 - mean_absolute_error: 0.3370
+52960/60000 [=========================>....] - ETA: 9s - loss: 0.1467 - mean_squared_error: 0.1467 - mean_absolute_error: 0.3370
+53024/60000 [=========================>....] - ETA: 9s - loss: 0.1467 - mean_squared_error: 0.1467 - mean_absolute_error: 0.3370
+53088/60000 [=========================>....] - ETA: 9s - loss: 0.1467 - mean_squared_error: 0.1467 - mean_absolute_error: 0.3369
+53152/60000 [=========================>....] - ETA: 9s - loss: 0.1467 - mean_squared_error: 0.1467 - mean_absolute_error: 0.3369
+53216/60000 [=========================>....] - ETA: 9s - loss: 0.1467 - mean_squared_error: 0.1467 - mean_absolute_error: 0.3369
+53280/60000 [=========================>....] - ETA: 9s - loss: 0.1467 - mean_squared_error: 0.1467 - mean_absolute_error: 0.3369
+53344/60000 [=========================>....] - ETA: 9s - loss: 0.1466 - mean_squared_error: 0.1466 - mean_absolute_error: 0.3369
+53408/60000 [=========================>....] - ETA: 8s - loss: 0.1466 - mean_squared_error: 0.1466 - mean_absolute_error: 0.3368
+53472/60000 [=========================>....] - ETA: 8s - loss: 0.1466 - mean_squared_error: 0.1466 - mean_absolute_error: 0.3369
+53536/60000 [=========================>....] - ETA: 8s - loss: 0.1466 - mean_squared_error: 0.1466 - mean_absolute_error: 0.3369
+53600/60000 [=========================>....] - ETA: 8s - loss: 0.1466 - mean_squared_error: 0.1466 - mean_absolute_error: 0.3369
+53664/60000 [=========================>....] - ETA: 8s - loss: 0.1466 - mean_squared_error: 0.1466 - mean_absolute_error: 0.3369
+53728/60000 [=========================>....] - ETA: 8s - loss: 0.1466 - mean_squared_error: 0.1466 - mean_absolute_error: 0.3368
+53792/60000 [=========================>....] - ETA: 8s - loss: 0.1466 - mean_squared_error: 0.1466 - mean_absolute_error: 0.3368
+53856/60000 [=========================>....] - ETA: 8s - loss: 0.1466 - mean_squared_error: 0.1466 - mean_absolute_error: 0.3368
+53920/60000 [=========================>....] - ETA: 8s - loss: 0.1465 - mean_squared_error: 0.1465 - mean_absolute_error: 0.3368
+53984/60000 [=========================>....] - ETA: 8s - loss: 0.1465 - mean_squared_error: 0.1465 - mean_absolute_error: 0.3368
+54048/60000 [==========================>...] - ETA: 8s - loss: 0.1465 - mean_squared_error: 0.1465 - mean_absolute_error: 0.3368
+54112/60000 [==========================>...] - ETA: 8s - loss: 0.1465 - mean_squared_error: 0.1465 - mean_absolute_error: 0.3368
+54176/60000 [==========================>...] - ETA: 7s - loss: 0.1465 - mean_squared_error: 0.1465 - mean_absolute_error: 0.3368
+54240/60000 [==========================>...] - ETA: 7s - loss: 0.1465 - mean_squared_error: 0.1465 - mean_absolute_error: 0.3368
+54304/60000 [==========================>...] - ETA: 7s - loss: 0.1465 - mean_squared_error: 0.1465 - mean_absolute_error: 0.3368
+54368/60000 [==========================>...] - ETA: 7s - loss: 0.1465 - mean_squared_error: 0.1465 - mean_absolute_error: 0.3368
+54432/60000 [==========================>...] - ETA: 7s - loss: 0.1465 - mean_squared_error: 0.1465 - mean_absolute_error: 0.3368
+54496/60000 [==========================>...] - ETA: 7s - loss: 0.1465 - mean_squared_error: 0.1465 - mean_absolute_error: 0.3368
+54560/60000 [==========================>...] - ETA: 7s - loss: 0.1464 - mean_squared_error: 0.1464 - mean_absolute_error: 0.3368
+54624/60000 [==========================>...] - ETA: 7s - loss: 0.1464 - mean_squared_error: 0.1464 - mean_absolute_error: 0.3367
+54688/60000 [==========================>...] - ETA: 7s - loss: 0.1464 - mean_squared_error: 0.1464 - mean_absolute_error: 0.3367
+54752/60000 [==========================>...] - ETA: 7s - loss: 0.1464 - mean_squared_error: 0.1464 - mean_absolute_error: 0.3368
+54816/60000 [==========================>...] - ETA: 7s - loss: 0.1464 - mean_squared_error: 0.1464 - mean_absolute_error: 0.3368
+54880/60000 [==========================>...] - ETA: 6s - loss: 0.1464 - mean_squared_error: 0.1464 - mean_absolute_error: 0.3368
+54944/60000 [==========================>...] - ETA: 6s - loss: 0.1464 - mean_squared_error: 0.1464 - mean_absolute_error: 0.3367
+55008/60000 [==========================>...] - ETA: 6s - loss: 0.1464 - mean_squared_error: 0.1464 - mean_absolute_error: 0.3368
+55072/60000 [==========================>...] - ETA: 6s - loss: 0.1464 - mean_squared_error: 0.1464 - mean_absolute_error: 0.3368
+55136/60000 [==========================>...] - ETA: 6s - loss: 0.1463 - mean_squared_error: 0.1463 - mean_absolute_error: 0.3367
+55200/60000 [==========================>...] - ETA: 6s - loss: 0.1463 - mean_squared_error: 0.1463 - mean_absolute_error: 0.3367
+55264/60000 [==========================>...] - ETA: 6s - loss: 0.1463 - mean_squared_error: 0.1463 - mean_absolute_error: 0.3367
+55328/60000 [==========================>...] - ETA: 6s - loss: 0.1464 - mean_squared_error: 0.1464 - mean_absolute_error: 0.3368
+55392/60000 [==========================>...] - ETA: 6s - loss: 0.1464 - mean_squared_error: 0.1464 - mean_absolute_error: 0.3368
+55456/60000 [==========================>...] - ETA: 6s - loss: 0.1464 - mean_squared_error: 0.1464 - mean_absolute_error: 0.3368
+55520/60000 [==========================>...] - ETA: 6s - loss: 0.1463 - mean_squared_error: 0.1463 - mean_absolute_error: 0.3368
+55584/60000 [==========================>...] - ETA: 6s - loss: 0.1463 - mean_squared_error: 0.1463 - mean_absolute_error: 0.3368
+55648/60000 [==========================>...] - ETA: 5s - loss: 0.1463 - mean_squared_error: 0.1463 - mean_absolute_error: 0.3367
+55712/60000 [==========================>...] - ETA: 5s - loss: 0.1463 - mean_squared_error: 0.1463 - mean_absolute_error: 0.3367
+55776/60000 [==========================>...] - ETA: 5s - loss: 0.1463 - mean_squared_error: 0.1463 - mean_absolute_error: 0.3367
+55840/60000 [==========================>...] - ETA: 5s - loss: 0.1462 - mean_squared_error: 0.1462 - mean_absolute_error: 0.3367
+55904/60000 [==========================>...] - ETA: 5s - loss: 0.1462 - mean_squared_error: 0.1462 - mean_absolute_error: 0.3367
+55968/60000 [==========================>...] - ETA: 5s - loss: 0.1462 - mean_squared_error: 0.1462 - mean_absolute_error: 0.3367
+56032/60000 [===========================>..] - ETA: 5s - loss: 0.1462 - mean_squared_error: 0.1462 - mean_absolute_error: 0.3367
+56096/60000 [===========================>..] - ETA: 5s - loss: 0.1462 - mean_squared_error: 0.1462 - mean_absolute_error: 0.3366
+56160/60000 [===========================>..] - ETA: 5s - loss: 0.1462 - mean_squared_error: 0.1462 - mean_absolute_error: 0.3366
+56224/60000 [===========================>..] - ETA: 5s - loss: 0.1462 - mean_squared_error: 0.1462 - mean_absolute_error: 0.3366
+56288/60000 [===========================>..] - ETA: 5s - loss: 0.1461 - mean_squared_error: 0.1461 - mean_absolute_error: 0.3366
+56352/60000 [===========================>..] - ETA: 4s - loss: 0.1461 - mean_squared_error: 0.1461 - mean_absolute_error: 0.3366
+56416/60000 [===========================>..] - ETA: 4s - loss: 0.1461 - mean_squared_error: 0.1461 - mean_absolute_error: 0.3366
+56480/60000 [===========================>..] - ETA: 4s - loss: 0.1461 - mean_squared_error: 0.1461 - mean_absolute_error: 0.3366
+56544/60000 [===========================>..] - ETA: 4s - loss: 0.1461 - mean_squared_error: 0.1461 - mean_absolute_error: 0.3365
+56608/60000 [===========================>..] - ETA: 4s - loss: 0.1460 - mean_squared_error: 0.1460 - mean_absolute_error: 0.3365
+56672/60000 [===========================>..] - ETA: 4s - loss: 0.1460 - mean_squared_error: 0.1460 - mean_absolute_error: 0.3365
+56736/60000 [===========================>..] - ETA: 4s - loss: 0.1460 - mean_squared_error: 0.1460 - mean_absolute_error: 0.3365
+56800/60000 [===========================>..] - ETA: 4s - loss: 0.1460 - mean_squared_error: 0.1460 - mean_absolute_error: 0.3365
+56864/60000 [===========================>..] - ETA: 4s - loss: 0.1460 - mean_squared_error: 0.1460 - mean_absolute_error: 0.3365
+56928/60000 [===========================>..] - ETA: 4s - loss: 0.1460 - mean_squared_error: 0.1460 - mean_absolute_error: 0.3365
+56992/60000 [===========================>..] - ETA: 4s - loss: 0.1460 - mean_squared_error: 0.1460 - mean_absolute_error: 0.3364
+57056/60000 [===========================>..] - ETA: 4s - loss: 0.1459 - mean_squared_error: 0.1459 - mean_absolute_error: 0.3364
+57120/60000 [===========================>..] - ETA: 3s - loss: 0.1459 - mean_squared_error: 0.1459 - mean_absolute_error: 0.3365
+57184/60000 [===========================>..] - ETA: 3s - loss: 0.1459 - mean_squared_error: 0.1459 - mean_absolute_error: 0.3365
+57248/60000 [===========================>..] - ETA: 3s - loss: 0.1459 - mean_squared_error: 0.1459 - mean_absolute_error: 0.3365
+57312/60000 [===========================>..] - ETA: 3s - loss: 0.1459 - mean_squared_error: 0.1459 - mean_absolute_error: 0.3364
+57376/60000 [===========================>..] - ETA: 3s - loss: 0.1459 - mean_squared_error: 0.1459 - mean_absolute_error: 0.3364
+57440/60000 [===========================>..] - ETA: 3s - loss: 0.1459 - mean_squared_error: 0.1459 - mean_absolute_error: 0.3364
+57504/60000 [===========================>..] - ETA: 3s - loss: 0.1459 - mean_squared_error: 0.1459 - mean_absolute_error: 0.3364
+57568/60000 [===========================>..] - ETA: 3s - loss: 0.1459 - mean_squared_error: 0.1459 - mean_absolute_error: 0.3364
+57632/60000 [===========================>..] - ETA: 3s - loss: 0.1459 - mean_squared_error: 0.1459 - mean_absolute_error: 0.3364
+57696/60000 [===========================>..] - ETA: 3s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+57760/60000 [===========================>..] - ETA: 3s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3363
+57824/60000 [===========================>..] - ETA: 2s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3363
+57888/60000 [===========================>..] - ETA: 2s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+57952/60000 [===========================>..] - ETA: 2s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+58016/60000 [============================>.] - ETA: 2s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+58080/60000 [============================>.] - ETA: 2s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+58144/60000 [============================>.] - ETA: 2s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+58208/60000 [============================>.] - ETA: 2s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+58272/60000 [============================>.] - ETA: 2s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+58336/60000 [============================>.] - ETA: 2s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+58400/60000 [============================>.] - ETA: 2s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+58464/60000 [============================>.] - ETA: 2s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+58528/60000 [============================>.] - ETA: 2s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+58592/60000 [============================>.] - ETA: 1s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+58656/60000 [============================>.] - ETA: 1s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+58720/60000 [============================>.] - ETA: 1s - loss: 0.1457 - mean_squared_error: 0.1457 - mean_absolute_error: 0.3363
+58784/60000 [============================>.] - ETA: 1s - loss: 0.1458 - mean_squared_error: 0.1458 - mean_absolute_error: 0.3364
+58848/60000 [============================>.] - ETA: 1s - loss: 0.1457 - mean_squared_error: 0.1457 - mean_absolute_error: 0.3364
+58912/60000 [============================>.] - ETA: 1s - loss: 0.1457 - mean_squared_error: 0.1457 - mean_absolute_error: 0.3364
+58976/60000 [============================>.] - ETA: 1s - loss: 0.1457 - mean_squared_error: 0.1457 - mean_absolute_error: 0.3363
+59040/60000 [============================>.] - ETA: 1s - loss: 0.1457 - mean_squared_error: 0.1457 - mean_absolute_error: 0.3363
+59104/60000 [============================>.] - ETA: 1s - loss: 0.1457 - mean_squared_error: 0.1457 - mean_absolute_error: 0.3363
+59168/60000 [============================>.] - ETA: 1s - loss: 0.1457 - mean_squared_error: 0.1457 - mean_absolute_error: 0.3363
+59232/60000 [============================>.] - ETA: 1s - loss: 0.1457 - mean_squared_error: 0.1457 - mean_absolute_error: 0.3363
+59296/60000 [============================>.] - ETA: 0s - loss: 0.1457 - mean_squared_error: 0.1457 - mean_absolute_error: 0.3363
+59360/60000 [============================>.] - ETA: 0s - loss: 0.1456 - mean_squared_error: 0.1456 - mean_absolute_error: 0.3363
+59424/60000 [============================>.] - ETA: 0s - loss: 0.1456 - mean_squared_error: 0.1456 - mean_absolute_error: 0.3363
+59488/60000 [============================>.] - ETA: 0s - loss: 0.1456 - mean_squared_error: 0.1456 - mean_absolute_error: 0.3363
+59552/60000 [============================>.] - ETA: 0s - loss: 0.1456 - mean_squared_error: 0.1456 - mean_absolute_error: 0.3363
+59616/60000 [============================>.] - ETA: 0s - loss: 0.1456 - mean_squared_error: 0.1456 - mean_absolute_error: 0.3363
+59680/60000 [============================>.] - ETA: 0s - loss: 0.1456 - mean_squared_error: 0.1456 - mean_absolute_error: 0.3362
+59744/60000 [============================>.] - ETA: 0s - loss: 0.1456 - mean_squared_error: 0.1456 - mean_absolute_error: 0.3362
+59808/60000 [============================>.] - ETA: 0s - loss: 0.1456 - mean_squared_error: 0.1456 - mean_absolute_error: 0.3362
+59872/60000 [============================>.] - ETA: 0s - loss: 0.1455 - mean_squared_error: 0.1455 - mean_absolute_error: 0.3362
+59936/60000 [============================>.] - ETA: 0s - loss: 0.1455 - mean_squared_error: 0.1455 - mean_absolute_error: 0.3362
+Epoch 00001: val_loss improved from inf to 0.06048, saving model to /home/d/PERCEPTION/RESULTS/C.Figure1.angle/0/MLP/01_noise.h5

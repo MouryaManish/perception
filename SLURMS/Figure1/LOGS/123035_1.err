@@ -1,0 +1,13 @@
+/var/spool/slurmd/job123035/slurm_script: line 16: new-modules.sh: No such file or directory
+ModuleCmd_Load.c(213):ERROR:105: Unable to locate a modulefile for 'Anaconda/5.0.1-fasrc01'
+Using TensorFlow backend.
+2019-10-19 21:45:58.781329: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-10-19 21:45:58.810399: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_NOT_INITIALIZED
+2019-10-19 21:45:58.810479: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:158] retrieving CUDA diagnostic information for host: gibbs28.gibbs.local
+2019-10-19 21:45:58.810491: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:165] hostname: gibbs28.gibbs.local
+2019-10-19 21:45:58.810556: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:189] libcuda reported version is: 390.77.0
+2019-10-19 21:45:58.810595: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:369] driver version file contents: """NVRM version: NVIDIA UNIX x86_64 Kernel Module  390.77  Tue Jul 10 18:28:52 PDT 2018
+GCC version:  gcc version 4.4.7 20120313 (Red Hat 4.4.7-23) (GCC) 
+"""
+2019-10-19 21:45:58.810626: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:193] kernel reported version is: 390.77.0
+2019-10-19 21:45:58.810636: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:300] kernel version seems to match DSO: 390.77.0
